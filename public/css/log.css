@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --maxWidth: 1200px;
+    --bgBodyColor: rgb(238, 234, 234);
+    --bgHeader: rgb(241, 240, 240);
+    --scrollBarColor: #4f92b8;
+    --bgContainer: #fff;
+    --hoverNavColor: #028fd3;
+    --normalTextColor: #484848;
+    --primaryColor: #4f92b8;
+    --subText: #a1a1a1;
+    --heading1Color: #727272;
+    --tableBorder: #ccc;
+    --tableHeadBgColor: #f3f3f3;
+    --warning-card: rgb(229, 175, 94);
+    --danger-card: rgb(229, 94, 94);
+    --info-card: rgb(78 192 188);
+    --bottomBarColor: #f3f3f3;
+    --inputBackGround: #fbf8f0;
+    --background-sdb: #c5ffc9;
+    --green-zaglul: #00853f;
+    --font-link-color: #fff;
+    --span-color: #a0a0a0;
+    --border-inputs: #bababa;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+    color: var(--normalTextColor);
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scrollBarColor);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body div.container {
+    width: 100%;
+    display: flex;
+}
+
+hr.custom-hr {
+
+    border: solid 1px #dadada;
+}
+
+.container-sub {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--bgContainer);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+}
+
+
+.sbd-contendedor {
+    width: 25%;
+}
+
+.sdb {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-sdb);
+    box-shadow: 0 0 2px;
+}
+
+.sbdCabecera {
+    position: relative;
+}
+
+
+.sdb .logoMenu {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sdb .logoMenu img {
+    width: 150px;
+}
+
+.sdb .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sdb.close .logo {
+    opacity: 0;
+}
+
+.sdb .logo .header-logo span.name {
+    font-weight: 600;
+}
+
+.sdb .toggle {
+    position: absolute;
+    top: 5%;
+    right: -45px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+}
+
+.lado-menu {
+    margin-top: 20px;
+    padding: 18px;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    height: 60px;
+}
+
+.lista li i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    min-width: 60px;
+}
+
+.lista li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.4s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.lista li i,
+.lista li a {
+    color: var(--normalTextColor);
+    font-weight: 700;
+}
+
+
+
+
+.lista li a:hover,
+.lista li :hover {
+    background-color: var(--green-zaglul);
+    color: var(--font-link-color);
+}
+
+
+.lista li a:hover i,
+.lista li a:hover a {
+    transition: .4s;
+    color: var(--font-link-color);
+}
+
+
+
+/* -----AQUI EMPIEZA LA PAGINA */
+section.form {
+    display: flex;
+    justify-content: center;
+    width: 78%;
+}
+
+.form .container-frm {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-frm .frmCabecera {
+    height: 120px;
+    width: 100%;
+}
+
+.container-frm .frmCabecera {
+    position: relative;
+    top: 10px;
+    left: 25px;
+   
+}
+
+.table-head-log {
+    display: flex;
+}
+
+.container-frm .frmCabecera h1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 65px;
+    font-size: 35px;
+    align-items: center;
+    height: 80px;
+}
+
+.table-head-log {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+
+/* crea la cabecera de la tabla */
+.table-head-log .th {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tableHeadBgColor);
+    border: 1px solid var(--tableBorder);
+    border-bottom: 2px solid var(--tableBorder);
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+}
+
+/* tamaño cabecera tabla */
+.table-head-log .th:nth-child(1) {
+    width: 100%;
+    border-right: 1px solid var(--tableBorder);
+
+}
+
+
+
+/* letras cabecera tabla */
+.table-head-log .th p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* crea panel para contenido de la tabla */
+.status-log {
+    width: 60%;
+    height: 130%;
+    overflow: hidden;
+    background-color: #c5ffc9;
+    margin-top: 15px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid var(--tableBorder);
+    /* border-left: 3px solid var(--primaryColor); */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 25px;
+}
+
+
+.status-log * {
+    font-family: "Inter Tight", sans-serif;
+    /* width: 60%; */
+}
+
+
+/* tamaño del contenedor */
+.status-log .main-info {
+    width: 93%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vamos {
+    display: flex;
+    width: 100% !important;
+    gap: 22px;
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+
+
+
+/* pone la imagen redonda y pequeña */
+.imgRedonda {
+    width: 70px;
+    height: 70px;
+    border-radius: 160px;
+    margin-top: 15px;
+
+}
+
+/* LETRA DE LA FECHA */
+.status-log .main-info .top .texto p:nth-child(1) {
+    font-weight: 600;
+
+}
+
+
+/* ubicacion letra del detalle del evento */
+.status-log .main-info .general div {
+    padding: 0 5px;
+    margin-top: 42px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+/* letra detalle dle evento agrega negrita*/
+.status-log .main-info .general div span:nth-child(1) {
+    font-weight: 600;
+    
+
+}
+
+
+/* tamaño letra detalle del evento */
+/* .status-log .main-info .general div span {
+    width: 100%;
+    font-size: 18px;
+} */

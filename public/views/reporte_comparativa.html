@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Impresion de Pedido</title>
+</head>
+    <style>
+        *{            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .contenedor{
+            
+        }
+        .form-container { 
+            width: 816px;
+            height: 528px; 
+            border: solid 1px;
+        }
+        .imagen {
+            margin: 15px;
+        }
+        .form-container {
+            text-align: center;
+            position: relative;
+            width: 816px;
+            height: 528px;
+        }
+
+        .imagen {
+            display: flex;
+
+        }
+
+        .imagen img {
+            width: 140px;
+            
+        }
+        .form-titulo {
+            font-size: 20px;
+            margin: 0 0 0 260px;
+            position: relative;
+            bottom: 60px;
+        }
+        .parametros { 
+            position: relative;
+            bottom: 50px;
+        }
+        .parametros .form-params .usuario {
+            margin-left: 40px;
+        }
+        .parametros .form-params .usuario :nth-child(2){ 
+            margin-left: 380px;
+        }
+        .parametros .form-params .fuent {
+            margin-left: 40px;
+        }
+        .parametros .form-params .fuent :nth-child(2){ 
+            margin-left: 360px;
+        }
+        .parametros .form-params-izq .fuent {
+            margin-right: 5px;
+        }
+        .table-original th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #04AA6D;
+            color: white;
+        }
+        .table-original td {
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        .table-original h2 {
+            text-align: center;
+            margin-top: 45px;
+        }
+        .table-final{
+            position: relative;
+            bottom: 403px;
+            left: 445px;  
+        }
+        .table-final .text-final h2{
+            position: relative;
+            right: 230px;
+        }
+        /* .table-final .text-original{
+            
+        } */
+        .table-final h2 {
+            text-align: center;
+            margin-top: 45px;
+        }
+        .table-final td {
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        .table-final th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        table, th, td {
+            border: 1px;
+        }
+        table {
+            border: 1px;
+        }
+      
+    </style>
+
+<body>
+
+    <div class="form-container" id="panel">
+        <div class="contenedor">
+            <div class="imagen">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHmdftM8SK6Ow/profile-displayphoto-shrink_400_400/0/1616165574004?e=1670457600&v=beta&t=xLfGHztuM8Yloql2b6L6Qye98J9TbPXkdNPhSorLt5E" alt="logo Zaglul">
+            </div>
+
+            <div class="form-titulo">
+                <h2>Reporte de Pedido</h2>
+            </div>
+
+            <div class="parametros">
+                <div class="form-params">
+                    <div class="usuario">
+                        <label>Usuario : <span>Ramon</span></label>
+                        <label>Fecha de Impresion : <spna>10-28-2022</spna></label>
+                    </div> 
+                    <div class="fuent">
+                        <label>Entidad Fuente : <span>Principal</span></label>
+                        <label>Entidad Destino : <span>Consuelo</span></label>
+                    </div> 
+                </div> 
+            </div>
+            <div class="contenedor-table">
+
+                <div class="table-original">
+                    <div class="text-original">
+                        <h2>Pedido original</h2>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> Codigo </th>
+                                <th>Producto</th>
+                                <th> Cantidad </th>
+                                <th>Suplidor</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="table-final">
+                    <div class="text-final">
+                        <h2>Pedido Final</h2>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Suplidor</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Jugo de Manzana</td>
+                                <td>1.00</td>
+                                <td>Plaza Lama</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+</body>
+
+</html>

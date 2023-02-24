@@ -1,0 +1,148 @@
+<div class="form-container">
+    <div class="header-container">
+        <div class="form-header"> 
+            <h1><i class="fa-solid fa-boxes-packing"></i> &nbsp Creacion de pedidos</h1>
+            <span>Este apartado es para crear los pedidos</span>
+        </div>
+    </div>
+    <div class="section-content">
+        
+        <div class="section-container" id="formContainer">
+            <div class="inputs-container">
+                <div class="form-inputs">
+                    <label for="txtDocument">Documento</label>
+                    <input disabled type="text" value="Nuevo" class="" id="txtDocument">
+                </div>
+                <div class="form-inputs">
+                    
+                    <label for="txtCurrentDate">Fecha Actual</label>
+                    <input disabled type="text" class="" id="txtCurrentDate">
+                </div>
+                <div class="form-inputs">
+                    <label for="selectCurrentStore">Almacen solicitante</label>
+                    <!-- <input disabled type="text" class="requerid" id="txtCurrentStore"> -->
+                    <select name="selectCurrentStore" disabled id="selectCurrentStore">
+                        <option value="1" selected>Principal</option>
+                    </select>
+                </div>
+                <div class="form-inputs">
+                    <label for="txtOtherStore">Almacen Remoto</label>
+                    <input type="text" value="Principal" id="txtOtherStore" disabled>
+                </div>
+                <div class="form-inputs">
+                    <label for="txtEstatus">Estatus</label>
+                    <input type="text" disabled id="txtEstatus">
+                </div>
+            </div>
+            <hr class="custom-hr mt-10">
+            <div class="content-row">
+                <h4>Seleccionar articulo manual</h4>
+                <div class="inputs-container">
+                    <div class="form-inputs">
+                        <label for="txtCodigoBarra">Codigo de barra</label>
+                        <input type="text" id="txtCodigoBarra">
+                    </div>
+                    <div class="form-inputs">
+                        <label for="txtCodigoBarra">Descripcion</label>
+                        <input type="text" id="txtDescripcionPanel" disabled>
+                    </div>  
+                    <div class="form-inputs">
+                        <label for="txtCodigoBarra">Suplidor</label>
+                        <input type="text" id="txtSuplidorPanel" disabled>
+                    </div>
+                    <div class="form-inputs">
+                        <label for="txtCodigoBarra">Costo</label>
+                        <input type="text" id="txtCostoPanel" disabled>
+                    </div> 
+                   
+                    <div class="form-inputs">
+                        <label for="txtCodigoBarra">Existencia remota</label>
+                        <input type="text" id="txtExistenRemota" disabled>
+                    </div>
+                    <div class="form-inputs">
+                        <label for="txtCodigoBarra">Cantidad solicitada</label>
+                        <input type="text" class="txt-to-number" id="txtCantidadPanel">
+                    </div>     
+                </div>
+            </div>
+            <div class="content-table">
+
+                <div class="table-content" id="tablePedidos">
+                    <!-- thead tr td -->
+                    <div class="table-head">
+                        <div class="tr-head" id="tr-head">
+                            <div class="td-head"></div>
+                            <div class="td-head">Codigo</div>
+                            <div class="td-head">Descripcion</div>
+                            <div class="td-head">C. Remota</div>
+                            <div class="td-head">C. Solicitada</div>
+                            <div class="td-head">Costo</div>
+                            <div class="td-head">Suplidor</div>
+                            <div class="td-head">Total</div>
+                        </div>
+                    </div>
+                    <!-- tbody tr td -->
+                    <div class="table-body" id="tbodyPedidos">
+                        <template id="template_tr_pedido">
+                            <div class="tr-body" id="tr-body">
+                                <div class="td-body"><button class="btn btn-custom-danger btn-delete-item"><i class="fas fa-minus-circle"></i></button></div>
+                                <div class="td-body"><span></span></div>
+                                <div class="td-body"><span></span></div>
+                                <div class="td-body"><span></span></div>
+                                <div class="td-body"><span></span></div>
+                                <div class="td-body"><span></span></div>
+                                <div class="td-body"><span></span></div>
+                                <div class="td-body">$<span>0.00</span></div>
+                            </div>
+                        </template>
+                        
+                    </div>
+                    <div class="table-head mt-10" id="tfootPedidos">
+                        <div class="tr-head" id="tr-head">
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head">$<span id="span_totalPedido">0.00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seccion de los botones -->
+        <section class="button-section">
+            <div class="button-container">
+                
+                <div class="button-grouper tooltip"> 
+                    <span class="tooltip-box">Buscar los articulos (F3)</span>
+                    <button id="btnSearchArticule" class="btn-custom-primary">
+                       
+                        <i class="fas fa-sort-alpha-down fa-2x"></i>
+                    </button>
+                </div>
+                <div class="button-grouper tooltip">
+                    <span class="tooltip-box">Buscar ordenes anteriores</span>
+                    <button id="btnClearAll" class="btn-custom-primary">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i> 
+                    </button>
+                </div>
+                <div class="button-grouper tooltip">
+                    <span class="tooltip-box">Guardar</span>
+                    <button id="btnSave" class="btn-custom-success">
+                        <i class="fa-regular fa-floppy-disk fa-2x"></i> 
+                    </button>
+                </div>
+                <!-- <div class="button-grouper">
+                    <button id="btnCancel" class="btn-custom-danger">
+                        <i class="fa-solid fa-xmark fa-2x"></i>
+                        <span>Cancelar</span>
+                    </button>
+                </div> -->
+            </div>
+        </section>
+        <!-- Seccion de los botones -->
+        <script src="/app/js/formulario-pedidos.js"></script>
+    </div>
+</div>

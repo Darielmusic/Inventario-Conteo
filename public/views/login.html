@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:site_name" content="Consulta Web - DISACOMP" />
+  <meta property="og:title" content="Consulta web" />
+  <meta property="og:description" content="Consuelta web de muestra para cooperativas, powered by DISACOMP S.A." />
+  <meta property="og:image" itemprop="image" content="https://disacomp-test.ddns.net/src/img/logoDisacomp.jpg" />
+  <meta property="og:type" content="website" />
+  <title>Consulta web socios - DISACOMP</title>
+  <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.css" /> -->
+  <!-- <link rel="stylesheet" href="css/login.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body tabindex="1">
+  <div class="container">
+    <form data-token="" action="" id="form-login">
+      <div class="h1Group">
+        <img src="/src/img/logo-zaglul.png" alt="LoginIcon" width="200px" />
+
+      </div>
+      <div class="inputs">
+        <div class="inputs-group" id="inputIdentify">
+          <input id="txtuser" class="requerid" tabindex="2" type="text" required />
+          <span id="spanIdentify"></span>
+          <label for="username">Usuario</label>
+        </div>
+        <div class="inputs-group eye-content" id="inputPassword">
+          <i class="fa-regular fa-eye-slash"></i>
+          <input id="txtpass" class="requerid" tabindex="3" type="password" required />
+          <span id="spanIPassword"></span>
+          <label for="username">Contraseña</label>
+        </div>
+
+        <div class="wrong-pass-content">
+          <span class="wrong-pass " id="wrongPassSpan">Error! Usuario o contraseña incorrecta</span>
+        </div>
+        <div class="loginButton">
+          <button id="btnlogin" tabindex="4" type="submit" class="btn btn-outline-info">
+            Login
+          </button>
+        </div>
+      </div>
+      <p class="powered">Powered by Disacomp &copy;</p>
+    </form>
+  </div>
+  <script src="/app/js/login.js" type="module"></script>
+
+</body>
+
+</html>

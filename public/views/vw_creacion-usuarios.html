@@ -1,0 +1,127 @@
+<section class="section-form">
+    <div class="form-container">
+        <hr class="custom-hr">
+        <div class="header-container">
+            <div class="form-header">
+                <h1><i class="fa-solid fa-users"></i> &nbsp Mantenimiento de usuarios</h1>
+                <span>Este apartado es para la administracion de los usuarios</span>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="section-container" id="formContainer">
+                <form autocomplete="off" class="inputs-container">
+
+                    <div class="left">
+                        <div class="photo-container">
+                            <div class="img-user" id="imgContainer">
+                                <img src="./src/img/add_user.png" id="imgUser">
+                                <input accept="image/*" type="file" id="imgUserInput">
+                                <label for="">Seleccionar imagen</label>
+                            </div>
+                        </div>
+                        <div class="form-inputs mt-10">
+                            <label for="txtNumero">Codigo de usuario</label>
+                            <input autocomplete="off" disabled type="text" value="Nuevo" class="" id="txtNumero">
+                        </div>
+                        <!-- <div class="form-inputs ">
+                            <label for="slSucursales">Sucursales</label>
+                            <select autocomplete="off" class="requerid" tabindex="7" id="slSucursales">
+                                <option value=""></option>
+                            </select>
+                        </div> -->
+                        <div class="form-inputs">
+                            <label for="slTipoUsuario">Tipo de Usuario</label>
+                            <select autocomplete="off" class="requerid" tabindex="8" id="slTipoUsuario">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="form-inputs">
+                            <label for="slStatus">Estatus</label>
+                            <select autocomplete="off" class="requerid" tabindex="9" id="slStatus">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="form-inputs">
+                            <label for="txtName">Nombre</label>
+                            <input autocomplete="off" type="text" tabindex="1" class="requerid" id="txtName">
+                        </div>
+                        <div class="form-inputs">
+                            <label for="txtCedula">Cedula</label>
+                            <input autocomplete="off" type="text" tabindex="3" class="requerid" id="txtCedula">
+                        </div>
+                        <div class="form-inputs">
+                            <label for="txtUser">Usuario</label>
+                            <input autocomplete="off" type="text" tabindex="5" class="requerid" id="txtUser">
+                        </div>
+                        <div class="form-inputs eye-content">
+                            <label for="txtPassword">Contraseña</label>
+                            <i class="fa-regular fa-eye-slash"></i>
+                            <input autocomplete="off" type="password" tabindex="10" id="txtPassword">
+                        </div>
+                    </div>
+
+                    <div class="right">
+
+                        <div class="form-inputs">
+                            <label for="txtLastname">Apellido</label>
+                            <input autocomplete="off" type="text" tabindex="2" id="txtLastname">
+                        </div>
+                        <div class="form-inputs">
+                            <label for="txtaddress">Direccion</label>
+                            <input autocomplete="off" type="text" tabindex="4" id="txtaddress">
+                        </div>
+                        <div class="form-inputs">
+                            <label for="txtEmail">E-mail</label>
+                            <input autocomplete="off" type="text" tabindex="6" id="txtEmail">
+                        </div>
+                        <div class="form-inputs eye-content">
+                            <label for="txtConfirmPassword">Confirmar contraseña</label>
+                            <i class="fa-regular fa-eye-slash"></i>
+                            <input autocomplete="off" type="password" tabindex="11" id="txtConfirmPassword">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <!-- Seccion de los botones -->
+            <section class="button-section">
+                <div class="button-container">
+                    <div class="button-grouper tooltip">
+                        <span class="tooltip-box ">Limpiar</span>
+                        <button id="btnClearAll" title="Nuevo" class="hbtn-custom-primary">
+                            <i class="fa-solid fa-file fa-2x"></i>
+                        </button>
+                    </div>
+                    <div class="button-grouper tooltip">
+                        <span class="tooltip-box">Buscar los usuarios</span>
+                        <button id="btnSearchUser" class="btn-custom-info">
+                            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                        </button>
+                    </div>
+                    <div class="button-grouper tooltip">
+                        <span class="tooltip-box">Guardar usuarios</span>
+                        <button id="btnSaveUser" tabindex="12" title="Guardar" class="btn-custom-success">
+                            <i class="fa-regular fa-floppy-disk fa-2x"></i>
+                        </button>
+                    </div>                       
+                    <div class="button-grouper tooltip" >
+                        <span class="tooltip-box">Actualizar</span>
+                        <button id="btnActualizar" class="btn-custom-secondary" >
+                            <i class="fa-solid fa-rotate-right"></i>
+                                <!-- <span></span> -->
+                        </button>                 
+                    </div>
+                    <!-- <div class="button-grouper">
+                                    <button id="btnCancel" class="btn-custom-danger">
+                                        <i class="fa-solid fa-xmark fa-2x"></i> 
+                                    </button>
+                                </div> -->
+                </div>
+            </section>
+            <!-- Seccion de los botones -->
+        </div>
+    </div>
+    <script src="/app/js/creacionUsuarios.js"></script>
+</section>

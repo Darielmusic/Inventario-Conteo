@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 816px;
+        height: 528px;
+        position: relative;
+    }
+
+    .logo-container {
+        position: relative;
+        height: 120px;
+    }
+
+    .logo-container img {
+        width: 150px;
+        margin-left: 30px;
+    }
+
+    .header-info {
+        position: relative;
+        bottom: 50px;
+        width: 750px;
+        height: 126px;
+    }
+
+    .info-container .right-info {
+        position: absolute;
+        right: 0px;
+        top: 85px;
+
+    }
+
+    .header-info .tittle {
+        height: 45px;
+        margin-left: 300px;
+        position: relative;
+        top: 55px;
+        right: 90px;
+    }
+
+    .header-info .info-container {
+        padding: 10px;
+        height: 50px;
+        margin-left: 14px;
+    }
+
+    .header-info .description-content {
+        padding: 0 0 0 10px;
+        margin-left: 14px;
+        position: relative;
+        top: 39px;
+    }
+
+    .table-container {
+        position: relative;
+        margin-left: 7px;
+        height: 320px;
+    }
+
+    .table-container table {
+        text-align: center;
+        width: 796px;
+        height: 85px;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+
+    table tbody tr td:nth-child(3) {
+        text-align: left;
+    }
+    table tbody tr td:nth-child(4),
+    table tbody tr td:nth-child(5),
+    table tbody tr td:nth-child(6){
+        text-align: right;
+    }
+    table thead tr th,
+    table tfoot tr td {
+        border-top: solid 1px;
+        border-bottom: solid 1px;
+        padding: 4px 0;
+    }
+    table tfoot tr td{
+        text-align: right;
+    }
+
+    .left-info {
+        position: relative;
+        top: 30px;
+    }
+
+    .sing-content {
+        height: 82px;
+    }
+
+    .left-sing {
+        border-top: solid 2px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 50px;
+        top: 37px;
+    }
+
+    .right-sing {
+        border-top: solid 2px;
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 547px;
+        top: 18px;
+    }
+
+    @media print {
+        body {
+            border: none;
+        }
+    }
+</style>
+
+<body>
+
+    <template id="pint-pedido">
+        <div class="sheet-content">
+            <div class="header-info">
+                <div class="tittle">
+                    <h2>ZAGLUL AGUIRREURRETA, S.R.L</h2>
+                </div>
+                <div class="info-container">
+                    <div class="left-info">
+                        <div class="user-info">
+                            <p>Usuario: <span></span></p>
+                        </div>
+                        <div class="branch-to">
+                            <p>Sucursal fuente: <span></span></p>
+                        </div>
+                        <div class="branch-to">
+                            <p>Numero del pedido: <span></span></p>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <div class="branch-from">
+                            <p>Página: <span></span></p>
+                        </div>
+                        <div class="date">
+                            <p>Fecha: <span></span></p>
+                        </div>
+                        <div class="branch-from">
+                            <p>Sucursal destino: <span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-content">
+                    <p>Nota: <span></span></p>
+                </div>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Numero</th>
+                            <th>Código</th>
+                            <th>Descripción</th>
+                            <th>Cantidad</th>
+                            <th>Costo</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot class="tfoot-table">
+                        <!-- <tr>
+                            <td></td>
+                            <td>Totales</td>
+                            <td></td>
+                            <td><span>0.00</span></td>
+                            <td><span>0.00</span></td>
+                            <td><span>0.00</span></td>
+                        </tr> -->
+                    </tfoot>
+                </table>
+            </div>
+            <div class="sing-content">
+                <!-- <div class="left-sing">
+                    <p>Preparada por</p>
+                </div>
+                <div class="right-sing">
+                    <p>Autorizado por</p>
+                </div> -->
+            </div>
+        </div>
+    </template>
+
+    <script>
+        (async () => {
+
+            let data = JSON.parse(localStorage.getItem("idImprimir"))
+            const formatter = new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+            });
+            let day = new Date();
+            let fecha = new Date();
+            let date = Intl.DateTimeFormat("es-ES", { day: "2-digit", month: "2-digit", year: "2-digit" }).format(day);
+            let hour = Intl.DateTimeFormat("es-DO", { hour12: true, hour: "2-digit", minute: "2-digit" }).format(day);
+
+            let response = await fetch(`/api/pedido/pedidoGeneral/${data}`).then(res => res.json());
+
+            let maxPerPage = 18;
+            let page = Math.ceil(response.pedidoInternoDetalle.length / maxPerPage);
+            let totalArticle = 0;
+            let currentPage = 1;
+            let subTotalCantidad = 0;
+            let subCosto = 0;
+            let subValor = 0;
+
+            for (let y = 1; y <= page; y++) {
+
+                currentPage = y;
+                let clone = document.getElementById("pint-pedido").content.firstElementChild.cloneNode(true);
+                let span = clone.querySelectorAll('span');
+
+                span[0].textContent = response.usuario;
+                span[1].textContent = response.fuente;
+                span[2].textContent = response.pedidoInternoId;
+                span[4].textContent = fecha.toISOString().substring(0, 10);
+                span[5].textContent = response.destino;
+                span[6].textContent = response.nota;
+
+                let counter = 0;
+                let fragment = document.createDocumentFragment()
+                for (let i = 0; i < response.pedidoInternoDetalle.length; i++) {
+
+                    if (counter >= (maxPerPage)) {
+                        counter = 0;
+                        break;
+                    }
+                    span[3].textContent = `${currentPage} de ${page}`;
+                    totalArticle++;
+                    let tr = document.createElement("tr");
+                    tr.insertAdjacentHTML("afterbegin", `
+                            <td>${totalArticle}</td>
+                            <td>${response.pedidoInternoDetalle[counter].codigoBarra}</td>
+                            <td>${response.pedidoInternoDetalle[counter].descripcion}</td>
+                            <td>${Number(response.pedidoInternoDetalle[counter].cantidad).toLocaleString('en-US')}</td>
+                            <td>${Number(response.pedidoInternoDetalle[counter].costoUnitario).toLocaleString('en-US')}</td>
+                            <td>${Number((Number(response.pedidoInternoDetalle[counter].cantidad) * Number(response.pedidoInternoDetalle[counter].costoUnitario)).toFixed(2)).toLocaleString('en-US')}</td>
+                        `);
+
+                    console.log(response.pedidoInternoDetalle[counter].costoUnitario);
+                    subCosto += Number(response.pedidoInternoDetalle[counter].costoUnitario);
+                    subTotalCantidad += response.pedidoInternoDetalle[counter].cantidad;
+                    subValor += (response.pedidoInternoDetalle[counter].cantidad) * (response.pedidoInternoDetalle[counter].costoUnitario);
+                    clone.querySelector("tbody").append(tr);
+                    fragment.append(clone);
+                    counter++;
+                }
+                if(y == page){
+                    let tr = `
+                        <tr>
+                            <td></td>
+                            <td>Totales</td>
+                            <td></td>
+                            <td><span>0.00</span></td>
+                            <td><span>0.00</span></td>
+                            <td><span>0.00</span></td>
+                        </tr>
+                    `;
+                    clone.querySelector('tfoot').insertAdjacentHTML('afterbegin',tr);
+                    
+                    let tfSpans = clone.querySelectorAll('span');
+
+                    tfSpans[7].textContent = subTotalCantidad.toLocaleString('en-US');
+                    tfSpans[8].textContent = formatter.format(subCosto);
+                    tfSpans[9].textContent = formatter.format(subValor);
+
+                    let div = `
+                        <div class="left-sing">
+                            <p>Preparada por</p>
+                        </div>
+                        <div class="right-sing">
+                            <p>Autorizado por</p>
+                        </div>  
+                    `;
+                    clone.querySelector('.sing-content').insertAdjacentHTML('afterbegin',div)
+                }
+                response.pedidoInternoDetalle.splice(0, maxPerPage);
+                document.body.append(fragment);
+            }
+            window.print();
+
+        })()
+    </script>
+</body>
+
+</html>

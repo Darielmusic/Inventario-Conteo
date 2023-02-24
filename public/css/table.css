@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --maxWidth: 1200px;
+    --bgBodyColor: rgb(238, 234, 234);
+    --bgHeader: rgb(241, 240, 240);
+    --scrollBarColor: #4f92b8;
+    --bgContainer: #fff;
+    --hoverNavColor: #028fd3;
+    --normalTextColor: #484848;
+    --primaryColor: #4f92b8;
+    --subText: #a1a1a1;
+    --heading1Color: #727272;
+    --tableBorder: #ccc;
+    --tableHeadBgColor: #f3f3f3;
+    --warning-card: rgb(229, 175, 94);
+    --danger-card: rgb(229, 94, 94);
+    --info-card: rgb(78 192 188);
+    --bottomBarColor: #f3f3f3;
+    --inputBackGround: #fbf8f0
+
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+    color: var(--normalTextColor);
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scrollBarColor);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+
+
+
+.content-table-pedidos{
+    display: flex;
+    position: relative;
+}
+
+.content-table-pedidos .filter-tienda{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    right: 12%;
+    top: 4px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.content-table-pedidos .filter-tienda select{
+    border: 1px solid var(--tableBorder);
+    margin-top: 2px;
+}
+
+
+.content-table-pedidos .filter-despacho{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    right: 2%;
+    top: 4px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+}
+ 
+
+.table-container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 4px rgb(201, 201, 201);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container table{
+    width: 60%;
+}
+
+
+.table-container table thead{
+    background-color: rgb(234, 234, 234);
+    border: 0%;
+    height: 40px;
+}
+
+.table-container table tbody tr td{
+    border: 1px solid  rgb(234, 234, 234);
+    height: 40px;
+    background-color: var(--bgContainer);
+}
+
+
+table tbody tr .process{
+    background-color: var(--primaryColor) !important;
+    color: var(--bgContainer);
+}
+
+.content-table-pedidos .table-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    font-size: 14px;
+    /* box-shadow: 0px 0px 4px rgb(0, 0, 01);
+    */
+    width: 86%;
+    margin-right: 2%;
+    margin-top: 0;
+}
+
+.content-table-pedidos .table-container-despacho{
+    width: 100% !important;
+}
+
+.content-table-pedidos .table-content .table-content-logcambio{
+    width: 100%;
+}
+
+.table-content .table-cabezera{
+    margin-top: 64px;
+}
+
+.table-content .table-cabezera .tr-head{
+    display: flex;
+    background-color: var(--bottomBarColor);
+    height: 44px;
+    align-items: center;
+    gap: 4px;
+}
+
+.table-content .table-cabezera .tr-head .td-head{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.table-content .table-cuerpo .td-cuerpo{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    text-align: center;
+}
+
+.table-content .table-cuerpo .ico{
+    position: relative;
+}
+
+.table-content .table-cuerpo .ico i:active{
+    color: red;
+}
+
+
+.table-content .table-cuerpo .td-cuerpo i{
+    font-size: 24px;
+    color: var(--success-bkg-button-active);
+    cursor: pointer;
+}
+
+.table-content .table-cuerpo .tr-cuerpo .td-cuerpo select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    height: 30px;
+    padding-left: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.table-content .table-cuerpo{
+    position: relative;
+}
+
+.table-content .table-cuerpo .tr-cuerpo{
+    display: flex;
+    /* text-align: center; */
+    box-shadow: 0px 0px 4px rgb(201, 201, 201);
+    height: 64px;
+    gap: 4px;
+    align-items: center;
+}
+.table-content .table-cuerpo .tr-cuerpo:hover{
+    background-color: var(--bottomBarColor);
+    cursor: pointer;
+}
+
+.content-table-pedidos .btn-container-pedidos{
+    margin-top: 16px;
+}
+
+.contx-menu{
+    position: absolute;
+    z-index: 1;
+    width: 140px;
+    height: 200px;
+    background-color: var();
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: center;
+    display: none;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.displey-initial{
+    display: initial !important;
+}
+
+
+
+.animation{
+    animation: show_slide 1s ease forwards;
+  }
+
+@keyframes show_slide{
+    0%{
+        transform: translateY(-20%);
+    }
+
+
+  } 
+
+
+.initial-element{
+    display: initial;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: auto;
+    background-color: #d7d9ff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    /* justify-content: center; */
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.contx-menu .item{
+    text-align: left;
+    margin-left: 12px;
+    cursor: pointer;
+    
+}
+
+.contx-menu .item:hover{
+  background-color: var(--bottomBarColor);
+}
+
+
+
+.contx-menu .item i{
+    margin-right: 12px;
+}
+
+.href{
+    outline: none;
+    text-decoration: none;
+}
+
+.while{
+    background-color: white;
+}
+
+.active-ico-menu{
+    background-color:   var(--tableBorder) ;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+
+.proceso{
+    color: #8ed3b6;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+
+} 
+.enviado{
+    color: #228108;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+
+}
+.despachado{
+    color: #539db4;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+  
+}
+.recibido{
+   color: #d9c4c4;
+   font-weight: 900;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 2px;
+
+}
+.posteado{
+    color: #fd9e9e;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+
+}
+
+.btn-proceso:hover{
+    background-color: #8ed3b6 !important;
+
+} 
+.btn-enviado:hover{
+    background-color: #228108 !important;
+    color: var(--bgContainer);
+
+}
+.btn-despachado:hover{
+    background-color: #539db4 !important;
+
+}
+.btn-recibido:hover{
+    background-color: #d9c4c4 !important;
+
+}
+.btn-posteado:hover{
+    background-color: #fd9e9e !important;
+
+}
+
+.contx-menu div .btn-status{
+    background-color: var(--background-sidedbar);
+    border: 0;
+    width: auto;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 8px;
+    box-shadow: 0px 0px 3px rgb(0 0 0);
+    padding: 8px;
+    margin-bottom: 8px;
+    color: var(--bgContainer);
+}
+
+.contx-menu .center-element{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media(max-width: 1132px) {
+    .table-content  {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 1026px) {
+    .table-content  {
+        font-size: 11px;
+    }
+
+}
+
+@media(max-width: 886px) {
+    .table-content  {
+        font-size: 10px;
+    }
+
+}
+
+/* Estilos del modal */ 
+.title-modal{
+    margin: 4%;
+}
+
+.table-cabezera .tr-head-log{
+    width: 96%;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.table-cabezera .tr-head-log .td-head{
+    width: 16% !important;
+}
+
+.table-cuerpo .tr-cuerpo-log{
+    width: 96%;
+}
+
+.table-cuerpo .tr-cuerpo-log{
+    width: 96%;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+
+.table-cuerpo .tr-cuerpo-log .td-cuerpo{
+    width: 16% !important;
+}
+
+.table-cuerpo .tr-cuerpo-log .descripcion{
+    width: 60% !important;
+}
+
+.scroll{
+    overflow-y: scroll !important;
+    height: 70% !important;
+    overflow-x: hidden;
+}
+
+.display-none{
+    display: none;
+}
+

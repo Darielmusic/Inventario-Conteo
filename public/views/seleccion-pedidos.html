@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="container-custom">
+
+      <div class="sidebarContainer">
+        <nav class="sidebar" id="sidebarMenu">
+          <div class="sideBarHeader">
+            <div class="text-logo">
+              <div class="logoSideBar">
+                <img src="/public/src/img/logo-zaglul-white.png" alt="logo Zaglul">
+              </div>
+            </div>
+            <div class="menu-bar">
+              <div class="menu nav">
+                <ul class="list-menu">
+                  <li>
+                    <a href="home"><i class="fa-solid fa-house"></i> Inicio</a>
+                  </li>
+                  <li>
+                    <a href="crear-usuarios"><i class="fa-solid fa-users"></i>Creacion de usuarios</a>
+                  </li>
+                  <li>
+                    <a href="crear-pedido-principal"><i class="fa-solid fa-truck-fast"></i>Formulario de pedidos</a>
+                  </li>
+                  <li>
+                    <a href="despacho"><i class="fa-solid fa-truck-ramp-box"></i>Despacho</a>
+                  </li>
+                  <li>
+                    <a href="tienda"><i class="fa-solid fa-shop"></i>Tienda</a>
+                  </li>
+                  <li>
+                    <a href="recibir-pedido"><i class="fa-solid fa-file-import"></i>Recibir pedidos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <section class="section-form">
+        <header>
+          <div class="header-menu-container" id="menuConteiner">
+            <div class="content-opcion">
+              <i class="fa-regular fa-sun"></i>
+              <div class="cerrar-section">Configuracion</div>
+            </div>
+            <div class="content-opcion">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <div class="cerrar-section">Cerrar sesion</div>
+            </div>
+          </div>
+
+
+          <div class="header-container-top">
+            <div class="inpust-group">
+              <div class="input-group">
+                <label for="">Sucursal</label>
+                <div class="input">
+                  <input class="input-sucursal" id="sucursal-header" disabled type="text">
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="">Fecha</label>
+                <div class="input">
+                  <input disabled id="fecha-header" type="date">
+                </div>
+              </div>
+            </div>
+
+            <div class="user-header" id="userHeader">
+              <div class="user-info-content">
+                <div id="nameUserHeader">Warrent la fuente</div>
+                <div id="secondNameUserHeader">buffet del bufet</div>
+              </div>
+              <img id="imgUserHeader" src="/public/src/img/perfil.jpg" alt="">
+              <i id="icoImg" class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </header>
+
+        <hr id="hr_reference" class="custom-hr">
+
+        <div class="section-content">
+          <div class="section-container" id="formContainer">
+            <div class="header-container">
+
+              <div class="form-header">
+                <h1><i class="fa-solid fa-gear"></i> &nbsp Seleccion de pedidos</h1>
+                <span>Seleccion de un rango de pedidos</span>
+              </div>
+            </div>
+            <div class="input-content">
+              <div class="form-input">
+                <label for="">Pedido Desde</label>
+                <input type="number" id="desde">
+              </div>
+              <div class="form-input">
+                <label for="">Pedido Hasta</label>
+                <input type="number" id="hasta">
+              </div>
+            </div>
+          </div>
+
+          <!-- Seccion de los botones -->
+          <section class="button-section">
+            <div class="button-container">
+              <div class="button-grouper tooltip">
+                <span class="tooltip-box ">Limpiar</span>
+                <button id="btnClearAll" title="Nuevo" class="btn-custom-primary">
+                  <i class="fa-solid fa-file fa-2x"></i>
+                </button>
+              </div>
+              <div class="button-grouper tooltip">
+                <span class="tooltip-box">Procesar</span>
+                <button id="btnProcesar" class="btn-custom-info">
+                  <i class="fa-solid fa-gear"></i>
+                </button>
+              </div> 
+            </div>
+          </section>
+          <!-- Seccion de los botones -->
+        </div>
+    </div>
+
+  </div>
+
+  <div id="alertBannerContent" class="alert-banner-container animation" hidden>
+  </div>
+
+  <div id="bannerContainer">
+    <div class="popup" id="alertModal" hidden>
+    </div>
+  </div>
+
+  <script src="/public/app/js/seleccion-pedidos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/filer.css" />
+    <title>Filer</title>
+  </head>
+  <body>
+    <div class="container-global"></div>
+    <div class="blocker-filter" id="modal_filter_products">
+      <div class="modal-filer">
+        <div class="filer-header">
+          <div class="top">
+            <div class="help">
+              <ul>
+                <li>f1 Buscar</li>
+                <li>f2 Ver articulos en cola</li>
+                <li>f3 limpiar filtros</li>
+              </ul>
+            </div>
+            <div class="title">
+              <h4>Seleccionar articulos</h4>
+            </div>
+            <div class="close">
+              <button>X</button>
+            </div>
+          </div>
+          <div class="filter-head">
+            <div class="search">
+              <label for="search_filter">
+                Buscar //
+                <span
+                  ><small class="disabled" id="filterby_description"
+                    >Descripcion</small
+                  ></span
+                >
+                <span class="disabled">|</span>
+                <span
+                  ><small class="disabled" id="filterby_code"
+                    >Codigo de barra</small
+                  ></span
+                ></label
+              >
+              <input type="text" id="search_filter" />
+            </div>
+            <div class="suplidor">
+              <label for="search_filter"> Sulplidor </label>
+              <input type="text" id="search_filter" />
+            </div>
+            <!-- <div class="category">
+              <label for="search_filter"> Categoria </label>
+              <input type="text" id="search_filter" />
+            </div> -->
+          </div>
+        </div>
+        <div class="body">
+          <div class="table-filter" id="filter_content">
+            <div class="thead">
+              <div class="th selector">
+                <p>Seleccionada</p>
+                <div class="filter">
+                  <div class="down">&#x2193;</div>
+                  <div class="top">&#x2191;</div>
+                </div>
+              </div>
+              <div class="th">
+                Descripcion
+                <div class="filter">
+                  <div class="down">&#x2193;</div>
+                  <div class="top">&#x2191;</div>
+                </div>
+              </div>
+              <div class="th">Principal</div>
+              <div class="th">Local</div>
+              <div class="th">
+                Suplidor
+                <div class="filter">
+                  <div class="down">&#x2193;</div>
+                  <div class="top">&#x2191;</div>
+                </div>
+              </div>
+              <div class="th">
+                Costo
+                <div class="filter">
+                  <div class="down">&#x2193;</div>
+                  <div class="top">&#x2191;</div>
+                </div>
+              </div>
+            </div>
+            <div id="filter_table_body" class="tbody">
+              <template id="template_body_content_loader">
+                <div class="content-loading">
+                  <div class="loading">
+                    <div class="icon">
+                      <img src="./src/img/loadgin.svg" alt="loading svg" />
+                    </div>
+                    <div class="text">
+                      <p>
+                        Cargando contenido
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </template>
+              <template>
+                <div data-index="0" class="tr">
+                  <div class="td selector">
+                    <div class="selector-min">
+                      <button>-</button>
+                    </div>
+                    <div class="selector-input">
+                      <input type="text" value="0" />
+                    </div>
+                    <div class="selector-plus">
+                      <button>+</button>
+                    </div>
+                  </div>
+                  <div class="td description">
+                    <p>22445151556114</p>
+                    <p>Pechuga a la plancha klk papa 2010</p>
+                  </div>
+                  <div class="td">
+                    <p>5042</p>
+                  </div>
+                  <div class="td">
+                    <p>11</p>
+                  </div>
+                  <div class="td">
+                    <p>Zaglul</p>
+                  </div>
+                  <div class="td">
+                    <p>$35.22</p>
+                  </div>
+                </div>
+              </template>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot-filter">
+        <div class="show-cart">
+          <button
+            title="Ver los articulos seleccionados y las cantidades actuales"
+          >
+            CART
+          </button>
+        </div>
+        <div class="finish">
+          <button>Finalizar seleccion&nbsp;&#10004;</button>
+        </div>
+        <div class="lastinsert">
+          <h5>Ultimo articulo insertado</h5>
+          <div class="code">
+            <p >Codigo:&nbsp;<span id="lastinsert_code"></span></p>
+          </div>
+          <div class="descripcion">
+            <h4 id="lastinsert_desc"></h4>
+          </div>
+          <div class="costo">
+            <p>Costo:&nbsp;$<span id="lastinsert_costo"></span> </p>
+          </div>
+          <div></div>
+          <div class="cantidad">
+            <p>Cantidad:&nbsp;<span id="lastinsert_cantidad"></span></p>
+          </div>
+        </div>
+        <!-- <div class="pages-content">
+          <div class="pagination-manager">
+            <div class="back">
+              <a href=""> < </a>
+            </div>
+            <div class="pages">
+              <a href="#" class="current">1</a>
+              <a href="#" class="next">2</a>
+              <a href="#" class="">3</a>
+              <a href="#" class="">4</a>
+              <a href="#" class="last">5</a>
+            </div>
+            <div class="last">
+              <a href="#"> > </a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="blocker-cart" id="modal_filter_cart">
+      <div class="cart-content">
+        <div class="cart-head">
+          <h4>Articulos seleccionados</h4>
+          <div class="close">
+            <button>x</button>
+          </div>
+        </div>
+        <div class="cart-body">
+          <div id="cart_details_table" class="cart-details"></div>
+          <div class="cart-data">
+            <div class="data">
+              <h5>Articulos</h5>
+              <p id="cart_articulos">0</p>
+            </div>
+            <div class="data">
+              <h5>Suplidor</h5>
+              <p id="cart_suplidor">--</p>
+            </div>
+            <div class="data">
+              <h5>Almacen</h5>
+              <p id="cart_almacen">Principal</p>
+            </div>
+            <div class="data">
+              <h5>Costo total</h5>
+              <p>$<span id="cart_costo">0.00</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app/filter.js"></script>
+  </body>
+</html>

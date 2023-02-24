@@ -1,0 +1,91 @@
+<div class="table-content form-container">
+  <div class="header-container">
+    <div class="form-header">
+        <h1><i class="fa-solid fa-users"></i> &nbsp; Recibir pedidos</h1>
+        <span>Este apartado es para recibir los pedidos despachados</span>
+    </div>
+  </div>
+  <div class="container-confirm" id="tablaConfirmar">
+    <div id="recbirPedidoDestok" class="recbirPedidoDestok">
+    <div class="recibir-pedido-destok ">
+      <div class="form">
+        <div class="fila-input-1">
+          <div class="form-group">
+            <label for="">Numero de pedido</label>
+            <Input tabindex="1" id="numberPedido"></Input>
+          </div>
+          <div class="form-group">
+            <label for="">Código</label>
+            <Input tabindex="2" readonly id="codigoBarra"></Input>
+          </div>
+          <div class="form-group">
+            <label  for="">Cantidad</label>
+            <Input type="number" tabindex="3" disabled id="cantidadArticulo"></Input>
+            <!-- <span hidden class="warning-input" id="warningInput"><i class="fa-solid warning-input fa-circle-exclamation"> </i></span> -->
+
+          </div>
+
+        </div>
+
+        <div class="fila-input-2">
+          <div class="form-group">
+            <label for="">Estatus</label>
+            <Input disabled tabindex="-1" id="estadoPedido"></Input>
+          </div>
+          <div class="form-group">
+            <label tabindex="-1" for="">Descripción del articulo</label>
+            <Input disabled id="descripcionArticulo"></Input>
+          </div>
+          <div class="form-group ">
+            <label for="">Conteo</label>
+            <Input disabled tabindex="-1" value="0/0" id="conteoPedido"></Input>
+          </div>
+        </div>
+      </div>
+    </div>
+       <!-- thead tr td -->
+       <div class="tablaConfirmar" id="tablaContainer">
+         <div class="table-cabezera mt-10">
+             <div class="tr-head" id="tr-head">
+                 <div class="td-head">Codigo</div>
+                 <div class="td-head articulo"><p>Articulos</p></div>
+                 <div class="td-head">Despachado</div>
+                 <div class="td-head">Recibido</div>
+                 <div class="td-head"></div>
+             </div>
+         </div>
+         <!-- tbody tr td -->
+         <div class="table-cuerpo pb" id="tbodyconfirmar">
+       </div>
+       </div>
+ 
+  </div>
+  <section class="button-section">
+    <div class="button-container">
+        
+        <div class="button-grouper tooltip"> 
+            <span class="tooltip-box">Agregar al carito</span>
+            <button tabindex="4" id="agregarCarrito" class="btn-custom-primary">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </button>
+        </div>
+        <div class="button-grouper tooltip"> 
+          <span class="tooltip-box">Guardar pedido</span>
+          <button tabindex="5" id="btnGuardar" class="btn-custom-primary">
+            <i class="fa-regular fa-floppy-disk fa-2x"></i>
+          </button>
+      </div>
+      <div class="button-grouper tooltip"> 
+        <span class="tooltip-box">Actualizar</span>
+        <button tabindex="5" id="btnActualizar" class="btn-custom-primary">
+          <i class="fa-solid fa-arrow-rotate-right"></i>        </button>
+    </div>
+        
+    </div>
+</section>
+
+
+  </div>
+  <script src="../app/js/recibir_pedido_destok.js"></script> 
+</div>
+          

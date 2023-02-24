@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/despacho.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+
+  <title>Zaglul</title>
+</head>
+
+<body>
+  <div class="screenLoader disable" id="loader">
+  </div>
+  <div class="section-form wite">
+
+    <div class="header">
+
+      <div class="drop" hidden id="menuConteiner">
+        <div class="cerrar"> <i class="fa-solid fa-right-to-bracket"></i>&nbsp; Cerrar sesión</div>
+      </div>
+
+      <div class="header-left">
+        <i id="refrescar" class="fa-solid fa-arrow-rotate-right"></i>
+        <i id="fullScreen" class="fa-solid fa-expand"></i>
+      </div>
+
+      <!-- <div class="refrescar" id="refrescar">
+        <div class="clas1">
+          <i id="refrescar" class="fa-solid fa-arrow-rotate-right"></i> 
+        </div>
+        <div class="clas2">
+          <i id="fullScreen" class="fa-solid fa-expand"></i>
+        </div>
+      </div>  -->
+
+      <div class="user-info" id="userHeader">
+        <div class="name-user">
+          <div class="name"></div>
+        </div>
+        <div class="img-user">
+          <img src="/src/img/add_user.png" alt="img-user">
+        </div>
+        <div class="open-drop">
+          <i id="" class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+    </div>
+    <div class="table-content" id="tablaConfirmar">
+      <div id="tableresponsiveContainerPrincipal">
+
+        <div class="input-group-responsive">
+          <div class="input-group">
+            <label for="">Número del pedido</label>
+            <input tabindex="1" id="numberPedido" type="number" autocomplete="off"
+              placeholder="Introducir el número del pedido">
+          </div>
+          <div class="input-group incr-content">
+            <label for="">Código de barra del articulo</label>
+            <input tabindex="2" disabled id="codigoBarra" type="text" autocomplete="off"
+              placeholder="Insertar el código de barra">
+            <span id="err-msg-cod-barra"></span>
+          </div>
+          <div class="input-group">
+            <label for="">Descripción</label>
+            <input tabindex="-1" disabled id="descripcionArticulo" type="text" autocomplete="off"
+              placeholder="Descripción del artículo">
+          </div>
+          <div class="cantidad-conteo">
+            <div class="input-group cantidad">
+              <label for="">Cantidad</label>
+              <input tabindex="3" disabled id="cantidadArticulo" type="number" autocomplete="off"
+                placeholder="Insertar cantidad">
+              <span id="err-msg-cant"></span>
+            </div>
+            <div class="input-group conteo">
+              <label for="">Conteo</label>
+              <input tabindex="-1" disabled id="conteoPedido" value="0/0" autocomplete="off" disabled type="text">
+            </div>
+          </div>
+          <div class="input-group input-group-btn">
+            <button tabindex="4" disabled id="agregarCarrito"><i class="fa-solid fa-cart-arrow-down"></i></button>
+            <button tabindex="5" disabled id="btnGuardar"><i class="fa-regular fa-floppy-disk fa-2x"></i></button>
+          </div>
+
+        </div>
+
+        <div class="table-responsive-container" id="tableresponsiveContainer">
+          <div class="rowResponsive" id="rowResponsive">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+  <script src="../app/js/confirmar-despacho.js"></script>
+  <!-- <script src="../app/js/confirmar_pedido.js"></script> -->
+</body>
+
+</html>

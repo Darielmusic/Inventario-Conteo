@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --green-Zaglul: #02783c;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(160deg, #4fb874 0%, #e0eceb 100%);
+    height: 100vh;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+.container {
+    background-image: url("src/img/BackGroundLines.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+.container form {
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+
+}
+
+.h1Group {
+    text-align: center;
+}
+
+.h1Group img {
+    margin: 10px 0
+}
+
+.inputs {
+    padding: 0 20px;
+}
+
+.inputs .wrong-pass-content {
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.2s;
+    opacity: 01;
+}
+
+.inputs span.wrong-pass {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 16px;
+    color: #ff0000;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.h1Group h1 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+form .inputs-group {
+    position: relative;
+    margin: 30px 0 0 0;
+    border-bottom: 2px solid #adadad;
+}
+
+.eye-content {
+    position: relative;
+}
+
+.eye-content i {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #bababa;
+}
+
+.inputs-group input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.inputs-group label {
+    position: absolute;
+    left: 10px;
+    top: 10%;
+    color: var(--green-Zaglul);
+    transform: translateY(-10%);
+    pointer-events: none;
+    font-size: 20px;
+    transition: .4s;
+    top: -20px;
+    color: var(--green-Zaglul);
+    font-size: 16px;
+}
+
+.inputs-group span::before {
+    height: 3px;
+    top: 40px;
+    position: absolute;
+    left: 0;
+    width: 0;
+    background: var(--green-Zaglul);
+    transition: .4s;
+}
+
+.span-before::before {
+    background: #f00d0d !important;
+}
+
+.inputs-group input:focus~label,
+.inputs-group input:valid~label {
+    top: -20px;
+    color: var(--green-Zaglul);
+    font-size: 16px;
+}
+
+.inputs-group input:focus~span::before,
+.inputs-group input:valid~span::before {
+    width: 100%;
+}
+
+.recovery-password {
+    margin: 0px 10px 31px;
+}
+
+.recovery-password a {
+    font-weight: 500;
+    font-size: 16px;
+    margin: -50px 7px 0;
+    text-decoration: none;
+    color: #adadad;
+    margin: 20px 0;
+}
+
+.recovery-password a:hover {
+    color: var(--green-Zaglul);
+    text-decoration: underline;
+}
+
+.loginButton {
+    text-align: center;
+}
+
+.loginButton button {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    width: 70%;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 25px;
+    border: solid 1px green;
+    background: var(--green-Zaglul);
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.loginButton button:active {
+    background-color: #025f2f;
+}
+
+.loginButton button:hover {
+    color: white !important;
+}
+
+.loginButton button:focus {
+    color: white !important;
+}
+
+p {
+    position: absolute;
+    bottom: -6px;
+    font-size: 10px;
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

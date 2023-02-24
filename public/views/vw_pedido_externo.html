@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body header {
+        width: 100%;
+        height: 70px;
+    }
+
+    header div.add-button {
+        padding: 15px;
+        display: flex;
+        justify-content: end;
+        border-bottom: solid 1px #ccc;
+    }
+
+    header div.add-button button {
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        border: none;
+        font-size: 25px;
+    }
+
+    .container- {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container .document-container {
+        width: 100%;
+        height: 100px;
+        box-shadow: 1px 1px 5px rgb(0, 0, 0, .7);
+        display: flex;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .container .document-container:active {
+        background-color: rgb(245, 245, 245);
+    }
+
+    .container .document-container .document-left {
+        width: 100px;
+        border-right: solid 1px #ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 9px;
+        min-width: 100px;
+        gap: 15px;
+    }
+
+    .container .document-container .document-info {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .container .document-container .document-info span {
+        margin: 6px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="add-button">
+            <button id="addButton">
+                +
+            </button>
+        </div>
+    </header>
+    <div class="container" id="documentContainer">
+    </div>
+    <script src="index.js"></script>
+    <script src="../app/js/pedido-externo.js"></script>
+</body>
+
+</html>

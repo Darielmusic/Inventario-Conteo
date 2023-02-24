@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/modal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+
+  <title>Zaglul</title>
+</head>
+
+<body>
+  <!-- loader -->
+  <div class="loader" id="loader">
+    <div class="loading-container">
+      <img src="./src/img/loadingZaglul.svg" alt="">
+      <div class="logo-container">
+        <img src="./src/img/logo-zaglul.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- fin -->
+  <div class="blocker-filter" id="modal_filter_products">
+    <div class="modal-filer">
+      <div class="filer-header">
+        <div class="top">
+          <div class="help">
+            <ul>
+              <li>f1 Buscar</li>
+              <li>f2 Ver articulos en cola</li>
+              <li>f3 limpiar filtros</li>
+            </ul>
+          </div>
+          <div class="title">
+            <h4>Seleccionar articulos</h4>
+          </div>
+          <div class="close">
+            <button>X</button>
+          </div>
+        </div>
+        <div class="filter-head">
+          <div class="search">
+            <label for="search_filter">
+              Buscar //
+              <span><small class="disabled" id="filterby_description">Descripcion</small></span>
+              <span class="disabled">|</span>
+              <span><small class="disabled" id="filterby_code">Codigo de barra</small></span></label>
+            <input type="text" id="search_filter" />
+          </div>
+          <div class="suplidor">
+            <label for="search_filter"> Sulplidor </label>
+            <input type="text" id="search_filter_suplidor" />
+          </div>
+          <!-- <div class="category">
+                <label for="search_filter"> Categoria </label>
+                <input type="text" id="search_filter" />
+              </div> -->
+        </div>
+      </div>
+      <div class="body">
+        <div class="table-filter" id="filter_content">
+          <div class="thead">
+            <div class="th selector">
+              <p>Seleccionada</p>
+              <div class="filter">
+                <div class="down">&#x2193;</div>
+                <div class="top">&#x2191;</div>
+              </div>
+            </div>
+            <div class="th">
+              Descripcion
+              <div class="filter">
+                <div class="down">&#x2193;</div>
+                <div class="top">&#x2191;</div>
+              </div>
+            </div>
+            <div class="th">Principal</div>
+            <div class="th">Local</div>
+            <div class="th">
+              Suplidor
+              <div class="filter">
+                <div class="down">&#x2193;</div>
+                <div class="top">&#x2191;</div>
+              </div>
+            </div>
+            <div class="th">
+              Costo
+              <div class="filter">
+                <div class="down">&#x2193;</div>
+                <div class="top">&#x2191;</div>
+              </div>
+            </div>
+          </div>
+          <div id="filter_table_body" class="tbody">
+            <template id="template_body_content_loader">
+              <div class="content-loading">
+                <div class="loading">
+                  <div class="icon">
+                    <img src="/src/img/loadgin.svg" alt="loading svg" />
+                  </div>
+                  <div class="text">
+                    <p>
+                      Cargando contenido
+                      <span>.</span>
+                      <span>.</span>
+                      <span>.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </template>
+            <template>
+              <div data-index="0" class="tr">
+                <div class="td selector">
+                  <div class="selector-min">
+                    <button>-</button>
+                  </div>
+                  <div class="selector-input">
+                    <input type="text" value="0" />
+                  </div>
+                  <div class="selector-plus">
+                    <button>+</button>
+                  </div>
+                </div>
+                <div class="td description">
+                  <p>22445151556114</p>
+                  <p>Pechuga a la plancha klk papa 2010</p>
+                </div>
+                <div class="td">
+                  <p>5042</p>
+                </div>
+                <div class="td">
+                  <p>11</p>
+                </div>
+                <div class="td">
+                  <p>Zaglul</p>
+                </div>
+                <div class="td">
+                  <p>$35.22</p>
+                </div>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-filter">
+      <div class="show-cart">
+        <button id="btnCartFilter" title="Ver los articulos seleccionados y las cantidades actuales">
+          CART
+        </button>
+      </div>
+      <div class="finish">
+        <button id="btnFinishFilter">Finalizar seleccion&nbsp;&#10004;</button>
+      </div>
+      <div class="lastinsert">
+        <h5>Ultimo articulo insertado</h5>
+        <div class="code">
+          <p>Codigo:&nbsp;<span id="lastinsert_code"></span></p>
+        </div>
+        <div class="descripcion">
+          <h4 id="lastinsert_desc"></h4>
+        </div>
+        <div class="costo">
+          <p>Costo:&nbsp;$<span id="lastinsert_costo"></span> </p>
+        </div>
+        <div></div>
+        <div class="cantidad">
+          <p>Cantidad:&nbsp;<span id="lastinsert_cantidad"></span></p>
+        </div>
+      </div>
+      <!-- <div class="pages-content">
+            <div class="pagination-manager">
+              <div class="back">
+                <a href=""> < </a>
+              </div>
+              <div class="pages">
+                <a href="#" class="current">1</a>
+                <a href="#" class="next">2</a>
+                <a href="#" class="">3</a>
+                <a href="#" class="">4</a>
+                <a href="#" class="last">5</a>
+              </div>
+              <div class="last">
+                <a href="#"> > </a>
+              </div>
+            </div>
+          </div> -->
+    </div>
+  </div>
+  <div class="blocker-cart" id="modal_filter_cart">
+    <div class="cart-content">
+      <div class="cart-head">
+        <h4>Articulos seleccionados</h4>
+        <div class="close">
+          <button>x</button>
+        </div>
+      </div>
+      <div class="cart-body">
+        <div id="cart_details_table" class="cart-details"></div>
+        <div class="cart-data">
+          <div class="data">
+            <h5>Articulos</h5>
+            <p id="cart_articulos">0</p>
+          </div>
+          <div class="data">
+            <h5>Suplidor</h5>
+            <p id="cart_suplidor">--</p>
+          </div>
+          <div class="data">
+            <h5>Almacen</h5>
+            <p id="cart_almacen">Principal</p>
+          </div>
+          <div class="data">
+            <h5>Costo total</h5>
+            <p>$<span id="cart_costo">0.00</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container-custom">
+
+      <div class="sidebarContainer">
+        <nav class="sidebar" id="sidebarMenu">
+          <div class="sideBarHeader">
+            <div class="text-logo">
+              <div class="logoSideBar">
+                <img src="/src/img/logo-zaglul-white.png" alt="logo Zaglul">
+              </div>
+            </div>
+            <div class="menu-bar">
+              <div class="menu nav">
+                <ul class="list-menu">
+                  <li>
+                    <a href="home"><i class="fa-solid fa-house"></i> Inicio</a>
+                  </li>
+                  <li>
+                    <a href="crear-usuarios"><i class="fa-solid fa-users"></i>Usuarios</a>
+                  </li>
+                  <!-- <li>
+                    <a href="crear-pedido-principal"><i class="fa-solid fa-truck-fast"></i>Formulario de pedidos</a>
+                  </li> -->
+                  
+                  <li>
+                    <a href="tienda"><i class="fa-solid fa-shop"></i>Tienda</a>
+                  </li>
+                  <li>
+                    <a href="recibir-pedido"><i class="fa-solid fa-file-import"></i>Recibir pedidos</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <section class="section-form">
+        <header>
+          <div class="header-menu-container" id="menuConteiner">
+            <div class="content-opcion">
+              <i class="fa-regular fa-sun"></i>
+              <div class="cerrar-section">Configuracion</div>
+            </div>
+            <div class="content-opcion" id="logout">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <div class="cerrar-section">Cerrar sesion</div>
+            </div>
+          </div>
+
+
+          <div class="header-container-top">
+            <div class="inpust-group">
+              <div class="input-group">
+                <label for="">Sucursal</label>
+                <div class="input">
+                  <input class="input-sucursal" id="sucursal-header" disabled type="text">
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="">Fecha</label>
+                <div class="input">
+                  <input disabled id="fecha-header" type="date">
+                </div>
+              </div>
+            </div>
+
+            <div class="user-header" id="userHeader">
+              <div class="user-info-content">
+                <div id="nameUserHeader"></div>
+                <div id="secondNameUserHeader"></div>
+              </div>
+              <img id="imgUserHeader" src="src/img/add_user.png" alt="">
+              <i id="icoImg" class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+        </header>
+        <hr id="hr_reference" class="custom-hr">
+    </div>
+  </div>
+
+  <div class="modal-container" id="modalContainer">
+    <div class="modal-content">
+
+      <div class="head-modal">
+        <div class="info-modal-content">
+          <h1><i class="fa-solid fa-user-pen"></i> &nbsp Seleccion de usuarios</h1>
+          <span>Este apartado es para la creacion de los usuarios</span>
+        </div>
+        <div class="close-modal">
+          <i id="closeModalAction" class="fa-regular fa-circle-xmark fa-3x"></i>
+        </div>
+      </div>
+
+      <hr class="custom-hr">
+      <div class="body-modal">
+        <div class="body-content">
+          <div class="content-table">
+
+            <div class="table-content" id="tableUser">
+              <!-- thead tr td -->
+              <div class="table-head">
+                <div class="tr-head" id="tr-head">
+                  <div class="td-head">Codigo</div>
+                  <div class="td-head">Nombre</div>
+                  <div class="td-head">Usuario</div>
+                  <div class="td-head">Tipo de Usuario</div>
+                  <div class="td-head">Estatus</div>
+                </div>
+              </div>
+              <!-- tbody tr td -->
+              <div class="table-body" id="tbodyUsuarios">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="alertBannerContent" class="alert-banner-container animation" hidden>
+  </div>
+
+  <div id="bannerContainer">
+    <div class="popup" id="alertModal" hidden>
+    </div>
+  </div>
+
+
+
+  <script src="app/main.js"></script>
+</body>
+
+</html>

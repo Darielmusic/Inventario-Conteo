@@ -1,0 +1,102 @@
+<div class="form-container">
+    <div class="header-container">
+        <div class="form-header"> 
+            <h1><i class="fa-solid fa-boxes-packing"></i> &nbsp Recepcion de pedidos</h1>
+            <span>Este apartado es para recibir los pedidos</span>
+        </div>
+    </div>
+    <div class="section-content">
+        
+        <div class="section-container" id="formContainer">
+            <div class="inputs-container">
+                <div class="form-inputs">
+                    <label for="txtDocument">Documento</label>
+                    <input disabled type="text" value="Nuevo" class="" id="txtDocument">
+                </div>
+                <div class="form-inputs">
+                    
+                    <label for="txtCurrentDate">Fecha Actual</label>
+                    <input disabled type="text" class="" id="txtCurrentDate">
+                </div>
+                <div class="form-inputs">
+                    <label for="txtCurrentStore">Tienda Actual</label>
+                    <input disabled type="text" class="requerid" id="txtCurrentStore">
+                </div>
+                <div class="form-inputs">
+                    <label for="txtOtherStore">Alamacen Remoto</label>
+                    <input type="text" value="Principal" id="txtOtherStore" disabled>
+                </div>
+                <div class="form-inputs">
+                    <label for="txtEstatus">Estatus</label>
+                    <input type="text" disabled id="txtEstatus">
+                </div>
+            </div>
+            <hr class="custom-hr mt-10"> 
+            <div class="content-table">
+
+                <div class="table-content" id="tableRecepcion">
+                    <!-- thead tr td -->
+                    <div class="table-head">
+                        <div class="tr-head" id="tr-head">
+                            <div class="td-head">Codigo</div>
+                            <div class="td-head">Descripcion</div>
+                            <div class="td-head">C. Solicitada</div>
+                            <div class="td-head">C. Recibida</div>
+                            <div class="td-head">Costo</div>
+                            <div class="td-head">Suplidor</div>
+                            <div class="td-head">Total</div>
+                        </div>
+                    </div>
+                    <!-- tbody tr td -->
+                    <div class="table-body" id="tbodyPedidos">
+
+                    </div>
+                    <div class="table-head mt-10" id="tfootPedidos">
+                        <div class="tr-head" id="tr-head">
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head"></div>
+                            <div class="td-head">$<span>0.00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seccion de los botones -->
+        <section class="button-section">
+            <div class="button-container">
+                
+                <!-- <div class="button-grouper tooltip"> 
+                    <span class="tooltip-box">Buscar los articulos (F3)</span>
+                    <button id="btnSearchArticule" class="btn-custom-primary">
+                       
+                        <i class="fas fa-sort-alpha-down fa-2x"></i>
+                    </button>
+                </div>
+                <div class="button-grouper tooltip">
+                    <span class="tooltip-box">Buscar ordenes anteriores</span>
+                    <button id="btnClearAll" class="btn-custom-primary">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i> 
+                    </button>
+                </div> -->
+                <div class="button-grouper tooltip">
+                    <span class="tooltip-box">Guardar</span>
+                    <button id="btnSave" class="btn-custom-success">
+                        <i class="fa-regular fa-floppy-disk fa-2x"></i> 
+                    </button>
+                </div>
+                <!-- <div class="button-grouper">
+                    <button id="btnCancel" class="btn-custom-danger">
+                        <i class="fa-solid fa-xmark fa-2x"></i>
+                        <span>Cancelar</span>
+                    </button>
+                </div> -->
+            </div>
+        </section>
+        <!-- Seccion de los botones -->
+        <script src="/app/js/formulario-recibo.js"></script>
+    </div>
+</div>

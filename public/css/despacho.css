@@ -1,0 +1,40 @@
+.incorrect-input{
+    border: solid 2px red !important;
+    box-shadow: 0 0 4px red;
+}
+.incr-content,.cantidad{
+    position: relative;
+}
+.incr-content span, .cantidad span{
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    top: 68px;
+    width: 200px;
+}
+
+.screenLoader.disable {
+    transition: 0.5s 0.6s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.screenLoader{ 
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+    position: fixed;
+    z-index: 7000;
+    background-color: rgb(0 0 0 / 60%);
+    opacity: 1;
+    top: 0;
+    left: 0;
+    user-select: none;
+}
+
+.header-left{
+    display: flex;
+    gap: 18px;
+    font-size: 20px;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    .container {
+        width: 785px;
+        height: 1025px;
+    }
+
+    .container .logo-content img {
+        position: relative;
+        bottom: 20px;
+        width: 200px;
+    }
+
+    .container .tittle {
+        position: relative;
+        bottom: 120px;
+        margin-left: 280px;
+    }
+
+    .container .info-content {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .container .info-content .left-info {
+        position: relative;
+        left: 50px;
+    }
+
+    .container .info-content .right-info {
+        position: relative;
+        right: 50px;
+        bottom: 100px;
+        text-align: right;
+    }
+
+    .note {
+        position: relative;
+        bottom: 80px;
+        margin-left: 80px;
+    }
+
+    .table-content {
+        position: relative;
+        bottom: 100px;
+        height: 550px;
+        padding: 15px;
+    }
+
+    .table-content table {
+        position: relative;
+        bottom: 35px;
+        width: 750px;
+        border-collapse: collapse;
+    }
+
+    .tfoot {
+        position: relative;
+        top: -150px;
+        left: 482px;
+    }
+
+    .tfoot .tr .tf {
+        float: left;
+        padding: 46px;
+        width: 100px;
+    }
+
+    .th {
+        border: solid 1px;
+        background-color: #dedede;
+        height: 30px;
+    }
+
+    .td {
+        border: 1px solid;
+        height: 25px;
+        padding: 5px;
+    }
+
+    .tf {
+        position: relative;
+        top: 6px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    .t-center {
+        text-align: center;
+    }
+
+    .t-left {
+        text-align: left;
+    }
+
+    .t-right {
+        text-align: right;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="logo-content">
+            <img src="https://scontent.fhex4-2.fna.fbcdn.net/v/t1.18169-9/525210_344236055686875_321929776_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHaFcWzhdvQLh_1ODp1Yrl_p1ozqFvl8tunWjOoW-Xy2xPpWUOXkQcvudNRbLXrW0D1S976Uso_ESwD5kyX19Ix&_nc_ohc=PRdyGz-b6t8AX-yrLH5&tn=lDePc6wgjQdeYXkU&_nc_ht=scontent.fhex4-2.fna&oh=00_AfAZ17cCp0cBeMbUvj4J_xHoJsMqYhnlhn37G1tI74s3Wg&oe=6394C12D"
+                alt="">
+        </div>
+        <div class="tittle">
+            <h2>Reporte Comparativo</h2>
+        </div>
+        <div class="info-content">
+            <div class="left-info">
+                <p>Usuario: <span>{{pedido.usuario}}</span></p>
+                <p>Sucursal fuente: <span>{{pedido.fuente}}</span></p>
+                <br>
+            </div>
+            <div class="right-info">
+                <p>Fecha: <span>{{pedido.fecha}}</span></p>
+                <p>Sucursal destino: <span>{{pedido.destino}}</span></p>
+            </div>
+            <div class="note">
+                <label for="">Nota: <span>{{pedido.nota}}</span></label>
+            </div>
+        </div>
+        <div class="table-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="th">Número</th>
+                        <th class="th">Código de Barra</th>
+                        <th class="th">Producto</th>
+                        <th class="th">Cantidad</th>
+                        <th class="th">Despachado</th>
+                        <th class="th">Recibido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each pedido.vwRecibidoInternoDetalle}}
+                    <tr>
+                        <td class="td t-center">{{this.RecibidoInternoDetalleId}}</td>
+                        <td class="td t-left">{{this.codigoBarra}}</td>
+                        <td class="td t-left">{{this.descripcion}}</td>
+                        <td class="td t-center">{{this.solicitada}}</td>
+                        <td class="td t-center">{{this.despachada}}</td>
+                        <td class="td t-center">{{this.recibida}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th>Totales</th>
+                        <th></th>
+                        <th class="tf t-center">0.00</th>
+                        <th class="tf t-center">0.00</th>
+                        <th class="tf t-center">0.00</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

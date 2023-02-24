@@ -1,0 +1,400 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impresion de Pedido</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+        .container {
+            width: 100%;
+            position: relative;
+            justify-content: center;
+            display: flex;
+            overflow: hidden;
+
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Inter Tight', sans-serif;
+            color: var(--normalTextColor);
+            scroll-behavior: smooth;
+        }
+
+        *::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        *::-webkit-scrollbar-thumb {
+            background-color: blueviolet;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        .imagen {
+            display: flex;
+            margin-left: 25px;
+            text-align: left;
+            margin-bottom: 3%;
+            margin-top: 4%;
+
+        }
+
+        .imagen img {
+            width: 140px;
+        }
+
+        .form-titulo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 80px;
+        }
+
+        .form-params {
+            display: flex;
+            margin-left: 40px;
+            font-weight: 600;
+            align-items: center;
+            min-height: 40px;
+            justify-content: space-between;
+
+        }
+
+        .form-params .usuario {
+            position: relative;
+            width: 500px;
+        }
+
+
+
+        .form-params-izq {
+
+            display: flex;
+            margin-left: 45px;
+            font-weight: 600;
+            justify-content: space-between;
+            gap: 270px;
+            min-height: 10px;
+
+        }
+
+        .form-params-izq .fuent {
+            position: relative;
+            width: 500px;
+        }
+
+
+        .not {
+            display: flex;
+            position: center;
+            margin-left: 45px;
+            justify-content: left;
+            margin-top: 10px;
+            gap: 5px;
+            font-weight: 600;
+        }
+
+        .not textarea {
+            height: 30px;
+            width: 94%;
+            resize: none;
+        }
+
+        .content-table-reporte {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .table-content-reporte {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 2%;
+            font-size: 14px;
+            width: 100%;
+            margin-right: 2%;
+        }
+
+
+        .table-content-reporte .table-cabezera-reporte .tr-head-report {
+            display: flex;
+            background-color: var(--cabeceracolor);
+            height: 44px;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .table-content-reporte .table-cabezera-reporte .tr-head-report .td-head-report {
+            width: 100%;
+            text-align: center;
+
+        }
+
+        .table-content-reporte .table-cuerpo-reporte .td-cuerpo-report {
+            width: 100%;
+            text-align: center;
+        }
+
+
+
+        .table-content-reporte .table-cuerpo-reporte {
+            position: relative;
+        }
+
+        .table-content-reporte .table-cuerpo-reporte .tr-cuerpo-report {
+            display: flex;
+            box-shadow: 0px 0px 4px rgb(201, 201, 201);
+            height: 64px;
+            gap: 4px;
+            align-items: center;
+        }
+
+        .subtotales {
+            display: flex;
+            margin-left: 20px;
+            margin-right: 20px;
+
+
+        }
+
+        .subtotales .subtotal {
+            margin-left: 20px;
+            font-weight: 700;
+
+
+        }
+
+        .subtotales .subtotalcosto {
+            margin-left: 195px;
+            font-weight: 600;
+
+        }
+
+        .subtotales .cantidadessubtotal {
+            margin-left: 475px;
+            font-weight: 600;
+
+        }
+
+        .subtotales .importesubtotal {
+            margin-left: 80px;
+            font-weight: 600;
+
+        }
+
+
+        hr.sep {
+            border: solid 1px #dadada;
+            margin-left: 29%;
+            margin-right: 2%;
+        }
+
+
+        .totales {
+            display: flex;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 10px;
+        }
+
+        .totales .total {
+            margin-left: 1px;
+            font-weight: 700;
+        }
+
+        .totales .totalcosto {
+            margin-left: 227px;
+            font-weight: 600;
+
+        }
+
+        .totales .cantidadtotal {
+            margin-left: 475px;
+            font-weight: 600;
+
+        }
+
+        .totales .importetotal {
+            margin-left: 80px;
+            font-weight: 600;
+
+        }
+
+        .sectionbuttons {
+            gap: 20px;
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+
+
+        @media(max-width: 1132px) {
+            .table-content-reporte {
+                font-size: 12px;
+            }
+
+        }
+
+        @media(max-width: 1026px) {
+            .table-content-reporte {
+                font-size: 11px;
+            }
+
+        }
+
+        @media(max-width: 886px) {
+            .table-content-reporte {
+                font-size: 10px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form-container" id="panel">
+            <div class="contenedor">
+                <div class="imagen">
+                    <img src="./src/img/logo-zaglul.png" alt="logo Zaglul">
+                </div>
+
+                <div class="form-titulo">
+                    <h2><u> &nbsp Reportado de Pedido</u></h2>
+                </div>
+
+                <div class="form-params">
+                    <div class="usuario">
+                        <span>Usuario : <span>Ramon</span></span>
+                    </div>
+                    <div class="fec">
+                        <span>Fecha de Impresion : <spna>10-28-2022</spna></span>
+                    </div>
+                </div>
+                <div class="form-params-izq">
+                    <div class="fuent">
+                        <span>Entidad Fuente : <span>Principal</span></span>
+                    </div>
+                    <div class="dest">
+                        <span>Entidad Destino : <span>Consuelo</span></span>
+                    </div>
+                </div>
+
+                <div class="not">
+                    <label for="txtnota">Nota </label>
+                    <textarea rows="3" aria-label="Username"></textarea>
+                </div>
+
+                <div class="content-table-reporte">
+
+                    <div class="table-content-reporte" id="tableReporte">
+                        <div class="table-cabezera-reporte">
+                            <div class="tr-head-report" id="tr-head-report">
+                                <div class="td-head-report">Codigo</div>
+                                <div class="td-head-report">Descripcion</div>
+                                <div class="td-head-report">Costo</div>
+                                <div class="td-head-report">Existencia Remota</div>
+                                <div class="td-head-report">Existencia Local</div>
+                                <div class="td-head-report">Faltante en Almacen</div>
+                                <div class="td-head-report">Cantidad</div>
+                                <div class="td-head-report">Importe</div>
+                            </div>
+                        </div>
+                        <div class="table-cuerpo-reporte" id="tbodyReporte">
+                            <div class="tr-cuerpo-report">
+                                <div class="td-cuerpo-report">027000069611</div>
+                                <div class="td-cuerpo-report">Wesson Aceite Canola 1 Gl 4/1</div>
+                                <div class="td-cuerpo-report">860.33</div>
+                                <div class="td-cuerpo-report">16.00</div>
+                                <div class="td-cuerpo-report">1.00</div>
+                                <div class="td-cuerpo-report"></div>
+                                <div class="td-cuerpo-report">1.00</div>
+                                <div class="td-cuerpo-report">860.33</div>
+                            </div>
+                            <div class="tr-cuerpo-report">
+                                <div class="td-cuerpo-report">027000690840</div>
+                                <div class="td-cuerpo-report">Wesson Aceite Canola 64 Oz 9/1 </div>
+                                <div class="td-cuerpo-report">570.34</div>
+                                <div class="td-cuerpo-report">27.00</div>
+                                <div class="td-cuerpo-report">1.00</div>
+                                <div class="td-cuerpo-report"></div>
+                                <div class="td-cuerpo-report">1.00</div>
+                                <div class="td-cuerpo-report">570.34</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="subtotales">
+                    <div class="subtotal">
+                        <span>Sub-totales <spna></spna></span>
+                    </div>
+
+                    <div class="subtotalcosto">
+                        <span>1,430.67</span>
+                    </div>
+                    <div class="cantidadessubtotal">
+                        <span>2.00</span>
+                    </div>
+                    <div class="importesubtotal">
+                        <span>1,430.67</span>
+                    </div>
+                </div>
+
+                <div class="separator">
+                    <hr class="sep">
+                </div>
+
+                <div class="totales">
+                    <div class="total">
+                        <span>Totales<span></span></spna>
+                    </div>
+
+                    <div class="totalcosto">
+                        <span>1,430.67</span>
+                    </div>
+
+                    <div class="cantidadtotal">
+                        <span>2.00</span>
+                    </div>
+
+                    <div class="importetotal">
+                        <span>1,430.67</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

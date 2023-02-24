@@ -1,0 +1,748 @@
+[33m7ea585f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6a5e56a[m Pedido api Filtro
+[33ma99cbeb[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma840636[m sync
+[33m3adc279[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc0b86b3[m SALVANDO A MANUEL
+[33mf940a18[m asd
+[33m31abe1c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m73b005d[m Commit desde el servidor
+[33mb430619[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7eee9cd[m Poniendo el logout a funcionar y creacion de la funcion de actualizar
+[33m63b0dc2[m sucursal signal
+[33m3c67ea6[m test
+[33m30f1c94[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33maa595b9[m branch server
+[33m8acb487[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc7d39fc[m product
+[33mf1d997c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m55ca1d8[m Integración del buscador a las tablas de pedidos y despacho
+[33m16c4632[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m8cd3697[m Refresh module
+[33me6c53bc[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcdb4719[m Cambios en recibir pedidos y en las tablas
+[33m5caceb4[m Cambios en las tablas y en recibir pedidos
+[33m5ffd7e6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m96dba01[m Filtro de Busqueda Pedidos
+[33m1b7d813[m Integración de paginado en la tabla de pedidos en tienda
+[33mf92750c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m56037a0[m sync
+[33m32177c3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf47f1cb[m modificacion a filtro d estatus
+[33m34477b7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1c11333[m sync
+[33me00a046[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3708716[m Captura de error de filtro Estatus
+[33m37f0369[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9738394[m sync
+[33md27d092[m 20 registros
+[33m258d64d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m32be1bc[m Filtro de estatus para pedidos
+[33md92287c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc056800[m sync
+[33m5bef90b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33med47028[m sync
+[33m43c810a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma117198[m sync
+[33mb84d8d6[m sync
+[33m6b477f3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me05e9a6[m paginado de 5 registros (Pruebas)
+[33m779d868[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb7e27a0[m sync
+[33m5c6e234[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2d61017[m correcion al log de cambios
+[33m08100dc[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0412ac2[m sync
+[33m3c856d1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2d023f8[m Comparativa PDF
+[33m71f89d7[m PDF Reporte correccion
+[33m382b4a4[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1785822[m sync
+[33m86d6622[m campo "pedidoNo" eliminado
+[33m9e0a8b2[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m92eeaef[m Captura de errores completa
+[33mbc3f80a[m sync
+[33m108c1c8[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1b90645[m sync
+[33m12db81a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m15e5207[m Correccion de captura de errores
+[33m7cf6d2b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma6af2b9[m Cambios en recibir pedidos y las tablas
+[33m2e9ee35[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1bcf208[m Captura de errores en la Tienda
+[33m9b40571[m Comentar los formularios de pedidos del menú
+[33mf953717[m Arreglos de Dariel Salas desde mi maquina
+[33m8eb742c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcef5833[m Traer cambios con  warrent
+[33m77358e2[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb772de5[m Modificaciones de SQL y demas
+[33mf235e9b[m sync
+[33mab0bcf6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2d96a02[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md60a09b[m Trayendo cambios de Stewart
+[33mef33f39[m sync
+[33md1ebd13[m pedido continuo
+[33ma6cba4d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3014aa2[m SYNC
+[33mabe996f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdf1fac1[m Syncs
+[33m949d017[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma0de9fe[m terminacion de recibir pedidos
+[33mf94015c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me1851af[m Traer cambios de Dariel
+[33m19559c6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m8fd29f1[m TRiggers listos y funcionales
+[33m24dca68[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mfda9f99[m Modificaciones en recibir pedidos movile
+[33m86550de[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m831d1be[m Pedidos Despacho Ready para PUT articulos
+[33m4c51422[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9c83704[m Cambios en recibir pedidos movile
+[33m99eecc7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdd08c0b[m sync
+[33m38425f1[m modificacion a la paginacion
+[33mc89e2b6[m Paginacion Lista por parte del backintheend
+[33m4cce137[m Renderizacion de pedidos y cambios a despacho
+[33m33f9576[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m26bbea0[m Tablas con el Reverse
+[33mbe493ba[m Cambios de rutas en tabla de despacho
+[33m7bac530[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m50fab1d[m sync
+[33m31221b0[m sync
+[33mcf2a26e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m49fa21b[m PUT cambiar estatus impreso
+[33m9d33c5e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3f3f908[m sync
+[33ma0bce6d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m89328a9[m Pruebas finales de controller Pedidos
+[33m714e9bd[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2269921[m Arreglos a pedido.
+[33m8758962[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me0797b8[m Syncronizacion para trabajar desde el servidor`
+[33m026eb9c[m Cambio de recibir pedido desktop en rutas de menu
+[33m0c4c6c0[m sync
+[33mc518d99[m sync
+[33mb83301f[m Synk
+[33m1a5e18c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m29aafa9[m synk
+[33ma60cab7[m synk
+[33m7f5097d[m sync mananenera
+[33m9ee5d91[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcf0c5ee[m API modificar cantidad de articulos
+[33m5d3fe8d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m58624b9[m Arreglo del login; Creacion de "confirmar-despacho";
+[33m3b4cf3d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m79b0df4[m API ById despacho
+[33m58d3833[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2a0e230[m Traer cambios de manuel
+[33m3ced274[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc37d5ab[m Arreglo de los input de despacho
+[33m612ddc2[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4b6d82f[m Modificaciones en recibir pedido para destok
+[33m083eff6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc60f909[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdef3440[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4f85f42[m Sync
+[33mca36ce4[m sincro matutina
+[33m7ce3bde[m Creacion del HTML de confirmacion de despacho. Redireccion a los nuevos HTML de confirmacion de pedido y de despacho
+[33m2e95c24[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m95c8a33[m Cambios de despacho
+[33m3253317[m lecal host ready
+[33m93ad6b4[m sync
+[33m84c94df[m sync
+[33m96601f5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m50410b9[m sync
+[33mf50d1e4[m ARREGLANDO EL DISPARATE DE DARIEL
+[33mf15f612[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m58083f9[m sync
+[33mb374449[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m38815a0[m correcion a recibir pedidos
+[33m7a9b4e9[m sync
+[33m7820278[m syncc
+[33mb1beac3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6db2545[m stywart mmg
+[33m2714363[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb8e8515[m error al buscar pedido no recibido
+[33m232ba2e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7c28436[m SYNC PARA PRESENTACION
+[33mdcdd4f5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf0fd366[m impresiones listas
+[33m422b472[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3be252f[m SYNC
+[33m98be97a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mae8a6c6[m dandole cambios a Dariel
+[33m1b97f7d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m44f5f56[m Traer cambios de mister warren
+[33m117e7f7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md6ccf21[m Transaction en put pedidos a recibir
+[33m53ae842[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m10c740b[m sync
+[33md6a4db8[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1838a87[m modificaciones en recibir pedidos
+[33m71818ee[m SYNC
+[33mb69cb7f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf92dff5[m SYNC
+[33m76de762[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0d156b1[m Traer
+[33m2cb22e0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mbc9f540[m Arreglo de modelos
+[33mdd4cd74[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf6644b3[m Trayendo cambios de print.html
+[33m2ce8863[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m81f3d9a[m modificaciones en la opcion de recibir
+[33m7c485b6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m50319ea[m Areglo de la impresion de reporte de pedido
+[33m669ebb6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4051980[m Estatus de pedido proceso despachado.
+[33m5e76c93[m PUT Pedidos Recibidos
+[33me502555[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mca41319[m sync
+[33me9dd0b5[m Impresion corregida De Nuevo!!
+[33m5252704[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9f0cbea[m Toma Kamel toma (PedidosController sin explotar)
+[33m34ca47e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6cd980f[m Traer arreglos
+[33m6554303[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m69903de[m mensajes al insertar pedidos
+[33m6e5208d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb1afcef[m Arreglo de creacion de ususarios
+[33m1828624[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma6a666b[m impresion pedido corregido
+[33m22e2bd5[m DELETE .VS
+[33me2379f8[m errores en impresion
+[33m040962c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf1ade28[m viendo errores
+[33mb99ba1b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc0ec89d[m Arreglo de usuario
+[33mc37b602[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4a8ce89[m Traer cambios del api
+[33m22ebcf3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m88c67c9[m modificacion a recibidos
+[33m2b0ed3d[m SYNC, MODULE -> RECIBIR PEDIDO INIT
+[33m329004f[m nada
+[33mf8b870f[m recibir pedidos
+[33m941bc5e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m94be384[m cambios en el home
+[33m49860d9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m135dcf3[m new home pages
+[33m9d44145[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33meb884fc[m SYNC
+[33m9833f25[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m76b7c60[m modificacion recibidos ById
+[33me37f44d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m137c3d6[m Creacion de recibir los pedidos
+[33m68e4775[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mbf7d659[m GET ById Pedidos Recibidos
+[33m231e13f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf633cca[m Creacion de coockies
+[33m4ed35f7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m55b16ab[m SYNC
+[33me847cb9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6c566c3[m Correcion vlaida usuario
+[33mb51e2fc[m sync
+[33m5954fad[m sync
+[33m1d21e74[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m291c9cf[m syn
+[33m581cdd9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2f4dd66[m SETEO DE COOKIE
+[33m87ed9ad[m sync
+[33m9d4dd0d[m window.useringo
+[33m69dda53[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m770ffa4[m Creacion de variable global de los usuarios
+[33md44bf62[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mbe3c054[m seteocookie login
+[33m8412e51[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma927c35[m SYNC
+[33m95688f1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3cd7869[m Sincronizacion de el login
+[33m672e9e0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m65fa2c1[m Creacion de recibir los pedidos en movile
+[33m0318e91[m sync
+[33m4703d9a[m Arreglo de inputs
+[33m079bc71[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mbc37fb2[m sync
+[33m2680db0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m82b7684[m Reportes listos y APIs pedido Recibido Listas
+[33m1120018[m SYNC
+[33m8b9f158[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m37fcced[m Agregado de 'show and hide password'
+[33m8f545a5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6010d81[m Inicio de la tabla de recibo de pedidos
+[33m5ffdec1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me230a12[m Pedido Reporte Errores corregidos
+[33m2e20fa4[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mecbe4f1[m Cambios en las tablas
+[33m3963889[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md801cf2[m arreglo del login
+[33m28da5e0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mebea583[m Modificaciones en los pedidos
+[33m36cf3ae[m sincro matutina
+[33ma200929[m sync
+[33m25417a2[m Arreglo al menu de la tabla de tabla de pedidos
+[33ma051d56[m resolviendo conflicto
+[33m3b7121a[m Delete articulos API
+[33mf21a70b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md12d3be[m correccion de errores
+[33m984698d[m Reporte casi casi listo. Correccion de errores
+[33m2f98c04[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m07ab6b3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m5b77c25[m Reporte casi casi listo. Correccion de errores
+[33mb486b5d[m Inicio de semana
+[33mab10111[m Iniciol de semana
+[33m7a343d3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3820c22[m arreglo de endPoint para agregar detalle
+[33ma51ff28[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m79556bf[m cambios de warren
+[33mbf7aa33[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb69b1dd[m probando pdf
+[33m6c389c4[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2384636[m dfds
+[33m75cbf2a[m pdf
+[33md7c91bf[m Modificaciones en  los pedidos
+[33m3128dfc[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me256abc[m arreglos en la impresion
+[33ma1729df[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m28e662b[m Moificaciones en los pdf
+[33m19cd91b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2997059[m modificacion post pedidos
+[33mc2c29a5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mca5e5be[m Realizacion del pdf
+[33m14bc4c9[m sync
+[33mc349d87[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1b1ac8a[m creacion de la impresion del reporte de diferencia
+[33md32acc4[m Cambio del filtro de despacho y tienda
+[33m439152c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0b86ed5[m Arreglo del filtro de las tablas de pedidos y despachos
+[33m67733f0[m landscale to portrait
+[33mc47ce65[m areglo de PDF
+[33medf3428[m sycs
+[33m2d4b268[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2c3a123[m Pedido comparativa con ruta lista
+[33m268c147[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1697255[m Syncs
+[33m77d7bf5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9418c16[m SYNC modificacion a pedidos, cantidades
+[33m53a2665[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me460963[m Pedidos comparativa editando
+[33mb549a3a[m Mensaje decommir
+[33m0105a54[m Traer cambios de dariel y creacion de reporte
+[33md7d5c85[m Modificaciones para poder imprimir
+[33m2bb95b6[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m61530df[m Inicio del filter
+[33m6e4bf1b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m5160766[m PDF Reporte de pedido unico Listo
+[33m7a49688[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4cbed4e[m Modificaciones en las tablas
+[33mce59022[m Modificaciones en las tablas
+[33m705b3fe[m Ajuste a pedido Ya trayendo data
+[33m26f9264[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m85f4a50[m pedido impresion casi listos
+[33md9dc26c[m Traer cambios de warrent
+[33m72c866a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m194e988[m Cambio de id de la imagen de perfil
+[33m5e3cd8f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m93b1ada[m reporte de pedidos
+[33mba5b278[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m02dd175[m create print html
+[33mfb07539[m Sincronizar con el manu
+[33m92b1c8e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me524ee2[m Arreglos en tienda y despacho
+[33m1083e48[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc652bf3[m pedidospdf comparativa
+[33m8fc7ee0[m pedidospdf comparativa
+[33mad07cc8[m PA QUE WARRENT VEA QUE EL ES EL DEL LIO
+[33m0bb6fdc[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m99c6539[m REPORTE COMPARATIVO TAMAÑO DE PAGINA
+[33m1920af7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m07a3313[m PedidoPDF in process
+[33m8c3ee02[m controler de cabecera y detalle de los pedidos
+[33mb8f365a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7f05e24[m Arreglo a controller de insertar articulo
+[33m39e2fb1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc59ad79[m Inicio del dia hoy martes
+[33m6dc9678[m Modificaciones en las tablas de despacho y pedido
+[33maac16e0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9de7d74[m sincronizacion del dia
+[33me32ea51[m pedidos impresion html en proceso
+[33m95124a7[m pedidosPDF, html sin comentarios
+[33me7c2ef0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2d28ae4[m white-logo png
+[33m3b575b1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2395b8d[m Agregacion de poner el id en el boton de continuar
+[33meaa17fb[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6d5731a[m arreglo del hover secondary
+[33mf29489e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9750de5[m SYNC
+[33m70633c2[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m2ed32fa[m favicon;
+[33mea28e30[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m76a3b58[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m47301d4[m Modificaciones en las tablas de pedidos y despacho
+[33ma1a8c8b[m Modificaciones en la tabla de pedido
+[33md2fe780[m SYNC
+[33m48cd7d9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m8b85cce[m SYNC
+[33m196dff3[m Parametro agregado al insert de los articulo.
+[33m0e90c76[m arreglo de modelos
+[33me848a03[m inserta detalle
+[33m7415969[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3d7e8d7[m Modificacions en los pedidos
+[33m9ce61e3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6cf3f53[m Focus en boton de Aceptar Cancelar
+[33mf1686a4[m error 400 en articulos menor a 1
+[33m50485a5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m91d5428[m articulos byid error
+[33ma86bfbf[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m5484b5d[m articulos ById separados
+[33m4cbeafe[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me12bf7d[m SYNC
+[33mcbd3639[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcf175ee[m SYNC
+[33md88d198[m SYNC
+[33m1276a52[m LOGIN TERMINADO
+[33meac0910[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me4a16fd[m CREACION DE COOKIE PARA LOGIN
+[33m3e4b5d8[m validacion de usuario
+[33mc17a94c[m redirect usuario
+[33m63271d0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb87ff5f[m PUT despacho y avances Validacion de usuario
+[33m4efe9e3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m755ecce[m SYNC
+[33m5beb6dc[m SYNC
+[33m4efe1e0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1dfb83e[m Modificaciones del header y de los pedidos
+[33m7dcb9bb[m synsc
+[33m5d7fac3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mfedf2f6[m syncs
+[33m2ae1a47[m Inicio de semana
+[33m07c4c28[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m69b7077[m Creacion del link para el boton de nuevo en tienda
+[33me5c5676[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc711771[m SYNC
+[33m1c4e30c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mafbb252[m cambio de nombre paginas a redireccionar login
+[33m057efa9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m670b029[m Terminacion de la tienda
+[33m18da901[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m347743d[m SYNC
+[33mfec4e5e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mff670b2[m TERMINACION DE LOGIN
+[33m0c9d12b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m318ac42[m comit
+[33mf526662[m Modificaciones en los pedidos
+[33m8ea70db[m AUTOCOMPLETE MANUEL
+[33mc78669f[m elipsis on table
+[33m2667b48[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mda5263c[m SYNC
+[33m96619a3[m arreglo de alertbanner
+[33m09ea9d0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0539f56[m sync
+[33md2e138d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m996e433[m SYNC
+[33m4ae0265[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m79e13bd[m PUT estatus de Pedidos
+[33mc7e7c6a[m SYNC
+[33m1c19b7e[m SYNC
+[33me21d35d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma8cbcfe[m SYNC
+[33m221bd6a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb4e1533[m Sync
+[33m1d6c468[m module
+[33mcee3575[m Agregacion del loading
+[33m9e85c34[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf963998[m Traer
+[33m783bb51[m sync
+[33mb277186[m Migracion de tempral.js a main.js
+[33m8dc89f9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m686bd78[m syncs
+[33m868a0df[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdd9605d[m Main progress
+[33m39b56b4[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m56e55d9[m cambio de carpeta de los JS
+[33m33fd4c5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0c534fb[m nada
+[33m9d6e875[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4e4b7df[m sync
+[33mc18438c[m nada
+[33m3b3c9af[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m13070b4[m Traer cambios de steward
+[33mb1a8af2[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1e2dc87[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m5c31d0a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m65539f1[m Post de pedidos Casi Casi Ready
+[33mc00a2d9[m Traer cambios de stewar
+[33m5046453[m sync
+[33m0a35a78[m Sync
+[33madfe3c1[m Main css, view de pedidos
+[33m3744ae7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4bad002[m MERGE
+[33m933196a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me49cd1e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1c43d19[m traer cambios de dariel (del diablo)
+[33m6099190[m Modificaciones en los pedidos
+[33m427729d[m Modificaciones en los pedidos
+[33mb075a03[m SYNC
+[33m185d531[m SYNC
+[33m37e7aa4[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m76ed45a[m SYNC
+[33mc20f30e[m WORK
+[33m57971e1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m00f1521[m Traer la miniapi de warren
+[33mf34098a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m10a7ca5[m Tabla de despacho
+[33mad581e9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3de2837[m sincro matutina
+[33me9656fb[m Arreglando Conflictos
+[33m1ef1f82[m Post Pedido en proceso
+[33mf7993d9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mce494f3[m Inicio de sesion
+[33meee4633[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf736be2[m SYNC
+[33m5326d37[m SYNC
+[33m0a61768[m LLENADO DE EL CSS DE MAIN
+[33m283515e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc7b6e52[m Traer cambios de tabla.css de dariel
+[33m1921a7d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m30613ce[m SYNC
+[33m6301b73[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m74949d4[m sync
+[33m12947ec[m Modificaciones en los pedidos
+[33m3ce7f97[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3087074[m Terminacion del header
+[33mc4ed104[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1086e49[m Creacion de ToolTip; Creacion del JS de formulario-pedido;
+[33m6f885a9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mbf897c3[m login
+[33m89c02f1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0b78b51[m sync
+[33me4bc7d2[m Traer cambios del manu
+[33m2b8f349[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1cc53ec[m Mejora de los botones; Arreglo de la pagina de la creacion de los usuarios
+[33mf9d0d10[m Un cambiecito en tienda
+[33m92c264b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc8e436b[m Creacion del header
+[33mfd11f54[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1e53052[m sync
+[33m8c41367[m sync
+[33m11da9b2[m sync
+[33m09d20c8[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf206082[m Creacion de logo zaglul white
+[33m03db11a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1d76c54[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma594392[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m27e5fc5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mae7d1f2[m Traer cambios de manuel
+[33mbbd31c0[m SYNC
+[33m0d3d88a[m Sincronizacion para Dariel
+[33m1fb90b1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mfccbb7c[m Login sin encriptacion.
+[33m4fa81c5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7dfa5aa[m sincronizacion por warrent
+[33m9d8261d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mda00ef6[m ajuste a pdfcontroller
+[33m4fc045f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7044c24[m filter
+[33mf7f77ed[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcfee981[m sincro para ver la impresion
+[33mea1056c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb92f693[m Traer la masacre que hicieron los chicos del bakc
+[33mb49e2e8[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdf61c6f[m Voy a sincronizar con miedo porque los backis cambiaron pal de cosas en las API. Que Dios se apiade de los Frontends
+[33mdb55725[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7c447b0[m Estructuracion de backend (singular y unificacion)
+[33m29f9a61[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mb95935a[m filter
+[33mddf03ff[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0f49001[m Traer cambios de warren
+[33md7c2e2b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m229966e[m LogCambios
+[33mc713465[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m8bb6c3d[m Creacion de pedidos
+[33m47c7d5c[m Pedido impresion agregado al boton
+[33m9f8727e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc5f25fe[m pedidospdf cambios
+[33mdd1261a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m95bab5c[m Agregacion del filtro de pedidos y de despacho
+[33m27ce427[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md15ca36[m Log de cambios API
+[33m0f490f5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc7cd31b[m Sync
+[33ma4a63d3[m Terminacion del formulario de usuaruios
+[33m173155c[m Creacion del login
+[33m21af8a3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m5b3e4e7[m Sincronizacion matutina
+[33m6043900[m estatusId en Usuario ById
+[33m9161859[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdc4cafe[m PedidoPDF casi listo
+[33m23456da[m Modificaciones en las tablas de pedidos y despacho
+[33m5fa129b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc8482ab[m Creacion del log de cambio
+[33md495e6d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3b0e199[m Avance de filter
+[33md890a07[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m581b9fc[m Se hizo el put y post sin ningun problema
+[33m6f5c8c1[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0a52470[m Integracion del api de mentira de warren
+[33m9d2eb48[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0ef1b17[m get imagen
+[33m05fa73b[m Arreglo del get de estatus
+[33m0e02ea5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md0a0af3[m Traer cambios de backend del pulll
+[33md0b0dc1[m Put de imagen
+[33m6f008bd[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9e01eac[m Arreglo de controler usuario
+[33mf3f9711[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcd4ef9d[m Modificacion de estatusUsuario
+[33m446f438[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma0f64c1[m Traer cambios de warrent
+[33mfec2a48[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcb71ccc[m Traer api de warren
+[33m6d2a9a3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0c28f2f[m Pedidos para Dariel
+[33m7c96dec[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0ced630[m Inicio de semana
+[33m7f5a0a0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mabe4026[m Traer cambios de warrent que le quito al getbyid del usuario que sea una lista
+[33mad0bad4[m Usuarios arreglos
+[33m408f192[m Conflictos de usuario resueltos
+[33m4e63803[m rezando a dios
+[33m3b9cb7d[m usuario ById 2do intento
+[33m15ff127[m resolviendo conflicto con Manuel
+[33mae4496f[m Usuario ById para manuel
+[33m853485f[m Arreglo de cambios
+[33me558a88[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mdc7c39a[m Sincronizacion matutina para traer un cambio de kamel de as imagenes
+[33md9da34d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4d79fbe[m Post de imagen en los usuario.
+[33ma1a403f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4a54cfe[m Termiacion y mejora de alert Banner; terminacion de el banner de pregunta; creacion de inputs requeridos; creacion del estandar de la paleta e colores
+[33m9bbdad9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mca9dbda[m TEST DEL VIERNES SYNC
+[33m522aa5c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc91df50[m PedidosImpresion en proceso
+[33md4cd933[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33meb3af01[m impresion de pedido
+[33ma343397[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md2736ac[m PRODUCT MANAGER
+[33m0180390[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m55287e2[m Traer cambios de Warrent
+[33md39de6b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7cb9892[m PedidosPDF
+[33mbf2d10c[m Darle cambios a warren
+[33m3c0fc34[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m8413f68[m Sincronizacion para darle acceso a la maquina de warrent
+[33mf5f2000[m probando impresion
+[33m78b0414[m Ningun choque en las URL
+[33m54749cb[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7013821[m Tipo de usuario arriba de ById, excusenlo
+[33md285866[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m56cff62[m Traer cambios de manuel
+[33m0ad7944[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m22d9b62[m Creacion del boton de aceptar y cancelar
+[33m2339b95[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me635122[m Creacion de la tabla de tablaDespacho
+[33m8af0752[m Creacion de la tabla de despacho
+[33m6b5a9cd[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m7c2e79d[m Traer getById de Usuarios
+[33m438dcf6[m API usuarioById
+[33md59439b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m3efc1f2[m API Filtro Busqueda para articulos
+[33mecd74ba[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m1a89657[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m5a3a609[m Traer API de estatus de usuario
+[33m780761a[m estatus usuario
+[33m9c22a65[m Terminacion de la creacion de los usuarios;
+[33m9c96bbb[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m4688fcb[m Sincronizacion para traer los tipos de usuarios
+[33m146bcfb[m API tipo usuario
+[33m9ea388b[m usuarioModel edit
+[33m3ed020f[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma6deb54[m Usuarios
+[33mf4148c0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc26cf7f[m Commit de prueba
+[33m78bbaf9[m Terminacion del modal de usuarios y creacion de tabla de usuarios;
+[33m99b70a6[m Modificaciones a Usuario
+[33m1bb0183[m Admin es Booleano
+[33md2147d5[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me0025d4[m APIs Sucursales Ready
+[33mfa77d6d[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mff3f01e[m Creacion de modal para uso general
+[33mcab74e4[m traer cambio
+[33ma5e25ff[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m415a6a1[m Sincronizacion diaria
+[33m242458a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0a8fe32[m SYNC
+[33m5f23ba0[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m571f4dc[m ById Mercan Ready
+[33m2915885[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m908afc4[m Creancion del input de imagen
+[33m993809f[m SYNC
+[33m098c57a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m925902f[m get Usuario con modelValidation
+[33m1d128f8[m SYNC
+[33m7c248af[m APIs Usuario Ready
+[33m752248b[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m126bb4e[m SYNC
+[33m4fa2245[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m583cd42[m Api de mercan Ready
+[33mf7c36d3[m Api de Mercan Lista
+[33mf24b0b9[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mcd4db71[m Traer cambio de manuel
+[33m410dd8c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md705355[m 321
+[33maf9d7dc[m Sincronizacion mananera
+[33mdf329ca[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9372318[m Sincronizacion Diaria
+[33mb40c5a7[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33ma012f97[m Modificaciones en la tabla de pedido
+[33mbbfa239[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m16fea81[m Traer cambios
+[33m9b83d16[m s
+[33mf35477a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m9f272ef[m INIT
+[33m309fb8b[m manager
+[33m344583a[m pagination, modelValidation, encrypt and more....
+[33m169f7c1[m articulos en proceso
+[33m74739b3[m helper and product
+[33m1837c7b[m INITIAL MODULE FOR PRODUCT PAGINATION
+[33mee002a3[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc2d77e2[m modelo
+[33m2c88117[m filter avance
+[33m760109e[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33me392aeb[m diseño log
+[33md1716a7[m Api de Usuario lista
+[33mde0f733[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf213a69[m Cambio de los botones hecho por manuel
+[33m5543fff[m Traer cambios de dariel
+[33m36a5261[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m357a51f[m Commit yeah
+[33mb5642b5[m Creacion de CssGlobalTemporal; Creacion de JsGlobalTempral; Insercion de modal y alert Banner;
+[33m30fa619[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33md04e4e2[m Modificaciones en la tabla de pedidos
+[33m32c5f63[m Creacion de JS. Llenado de sucursales y perfecta recogia de datos. Creacion de las clases de los botones: Hover, Action
+[33me9bfa7d[m primera terminacion de la creacion de los usuarios
+[33mc5d13a8[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mec0d906[m Creacion de botones laterales;
+[33m26eee5c[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m176b0c9[m Diseño Vista Log De Eventos
+[33m4b5ec23[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m84b14d6[m Configuracion de server
+[33m2e34209[m configuracion de server
+[33ma08dc96[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mfe2177c[m filter avance
+[33m10a2dc2[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m622cdbf[m Realizacion de la tabla
+[33mb961428[m Borrado de logo mal zaglul; set color to sidebar
+[33mf36edfb[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mc108952[m Adicion del menu al main panel, creacion de la variable GreenZaglul, cambio de fondo
+[33m70944b4[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33mf149ee3[m PEDIDOS
+[33mdc58043[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m6739b93[m Creacion de sidedbar y adicion dde el logo de zaglul
+[33mcdc0217[m rutes
+[33m5aa8b3a[m Merge branch 'main' of https://dev.azure.com/TeamDisacomp/PedidoInternoWeb/_git/PedidoInternoWeb
+[33m0e4bf4d[m FILTER\
+[33mce06d47[m Arreglo de el HTML de main
+[33mcf6f428[m Traer los cambios de stewart. Inicio de la creacion de usuarios
+[33m38610d3[m txt
+[33m1bec657[m[33m ([m[1;32mmaster[m[33m)[m INITIAL COMMIT

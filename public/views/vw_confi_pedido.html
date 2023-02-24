@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+
+  <title>Zaglul</title>
+</head>
+
+<body class="wite">
+  
+  <div class="section-form ">
+
+    <div class="header">
+
+      <div class="drop" hidden id="menuConteiner">
+        <div class="nome-user">
+          <div class="header-drop">
+            <img id="userImg" src="/" alt="">
+            <div class="name" id="nameUser">Dariel Salas</div>
+            <div class="initial-letter" id="initialLetter"></div> 
+          </div> 
+          <hr> 
+          <div class="user-info">
+            <div class="sucursal">
+              <p class="title-info">Sucursal:</p>
+              <p id="sucursal"></p> 
+
+            </div>
+
+          </div>  
+        </div>
+        
+        <div class="cerrar" id="cerrarSesion"> <i class="fa-solid fa-right-to-bracket"></i>&nbsp; Cerrar sesión</div>
+      </div>
+
+      <div class="header-left" >
+        <i id="refrescar" class="fa-solid fa-arrow-rotate-right"></i>
+        <i id="fullScreen" class="fa-solid fa-expand"></i>
+      </div>
+
+      <div class="user-info" id="userHeader">
+        <div class="name-user">
+          <div class="name"></div>
+        </div>
+        <div class="img-user">
+            <img id="imgLogOut" src="" alt="">
+        </div>
+        <!-- <div class="open-drop">
+          <i id="" class="fa-solid fa-caret-down"></i>
+        </div> -->
+      </div>
+    </div>
+    
+  
+    <div class="table-content" id="tablaConfirmar">
+      <div id="recbirPedidoDestok" hidden>
+
+   
+      <!-- <div class="recibir-pedido-destok ">
+        <div class="form">
+          <div class="fila-input-1">
+            <div class="form-group">
+              <label for="">Numero de pedido</label>
+              <Input  tabindex="1" id=""></Input>
+            </div>
+            <div class="form-group">
+              <label for="">Código</label>
+              <Input placeholder="Codigo de barra" tabindex="1" id=""></Input>
+            </div>
+            <div class="form-group">
+              <label  for="">Cantidad</label>
+              <Input placeholder="Cantidad de articulo" tabindex="2" id=""></Input>
+            </div>
+  
+          </div>
+  
+          <div class="fila-input-2">
+            <div class="form-group">
+              <label for="">Estatus</label>
+              <Input tabindex="-1" id=""></Input>
+            </div>
+            <div class="form-group">
+              <label tabindex="-1" for="">Descripción del articulo</label>
+              <Input readonly id=""></Input>
+            </div>
+            <div class="form-group ">
+              <label for="">Conteo</label>
+              <Input tabindex="1" id=""></Input>
+            </div>
+          </div>
+        </div>
+        <div class="btn-group">
+          <div class="form-group">
+            <button tabindex="3" class="btn-custom-secondary" id=""><i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+          <div class="form-group">
+            <button tabindex="" class="btn-custom-secondary"><i class="fa-regular fa-floppy-disk fa-2x"></i></button>
+          </div>
+        </div>
+        
+      </div> -->
+         <!-- thead tr td -->
+        <div class="table-cabezera cabezera-confi">
+            <div class="tr-head" id="tr-head">
+                <div class="td-head">Codigo</div>
+                <div class="td-head articulo"><p>Articulos</p></div>
+                <div class="td-head">Pedidos</div>
+                <div class="td-head">Despachado</div>
+                <div class="td-head">Recibido</div>
+            </div>
+        </div>
+        <!-- tbody tr td -->
+        <div class="table-cuerpo pb" id="tbodyconfirmar">
+      </div> 
+    </div>
+            
+  
+  
+  
+        <div id="tableResponsive" hidden>
+  
+          <div class="input-group-responsive">
+            <div class="input-group">
+              <label for="">Numero del pedido</label>
+              <input placeholder="Insertar numero del pedido" autocomplete="off" tabindex="1" id="numberPedido" type="number">
+            </div>
+            <div class="input-group">
+              <label for="">Estatus del pedido</label>
+              <input placeholder="Estatus actual de este pedido" tabindex="-1" readonly id="estadoPedido" type="text">
+            </div>
+            <div class="input-group">
+              <label for="">Codigo de articulo</label>
+              <input placeholder="Codigo de barra" disabled autocomplete="off" tabindex="2" id="codigoBarra" type="text">
+            </div>
+            <div class="input-group">
+              <label for="">Descripción</label>
+              <input placeholder="Descripción del articulo" tabindex="-1" readonly id="descripcionArticulo" type="text">
+            </div>
+            <div class="cantidad-conteo">
+              <div class="input-group cantidad">
+                <label for="">Cantidad</label>
+                <input placeholder="Cantidad por articulo" disabled autocomplete="off" tabindex="3" id="cantidadArticulo" type="number">
+              </div>
+              <div class="input-group conteo">
+                <label for="">Conteo</label>
+                <input tabindex="-1" readonly id="conteoPedido" value="0/0" disabled  type="text">
+              </div>
+            </div>
+            <div class="input-group input-group-btn">
+             <button disabled tabindex="4" id="agregarCarrito"><i class="fa-solid fa-cart-arrow-down"></i></button>
+             <button  tabindex="5" id="btnGuardar"><i class="fa-regular fa-floppy-disk fa-2x"></i></button>
+            </div>
+        
+          </div>
+  
+          <div class="table-responsive-container" id="tableresponsiveContainer">
+              <div class="rowResponsive" id="rowResponsive">
+              </div>   
+              <!-- <div class="secuantialNumber"><p>2541</p></div>
+              <div class="tableResponsiveContainer">
+                  <div class="headResponsive">
+                      <div>Descripcion</div>
+                      <div>Pedidos</div>
+                      <div>Despachado</div>
+                      <div>Recibido</div>
+                  </div>
+                  <div class="bodyResponsive" id="bodyResponsive">
+                      <div>250202</div>
+                      <div>ASDFASF</div>
+                      <div>ASFAAF</div>
+                      <div class="input-btn">                            
+                        <input type="text">
+                      </div>
+                  </div>
+              </div> -->
+          </div>
+      </div>  
+
+      <div id="alertBannerContent" class="alert-banner-container position-pedido animation-recibir-pedido" hidden>
+      </div>
+
+      <div id="bannerContainer">
+        <div class="popup" id="alertModal" hidden>
+        </div>
+      </div>
+      <div class="top-button" id="topButton">
+        <i class="fa-solid fa-angle-up"></i>
+        <p>Top</p>
+      </div>
+        
+      <script src="../app/js/confirmar_pedido.js"></script>
+    </div>
+  
+  
+  
+  </div>
+</body>
+</html>
