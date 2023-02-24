@@ -1,8 +1,8 @@
 <div class="form-container">
     <div class="header-container">
         <div class="form-header"> 
-            <h1><i class="fa-solid fa-boxes-packing"></i> &nbsp Creacion de pedidos</h1>
-            <span>Este apartado es para crear los pedidos</span>
+            <h1><i class="fa-solid fa-boxes-packing"></i> &nbsp Creación de documento</h1>
+            <span>Este apartado es para la creación de documentos para inventario</span>
         </div>
     </div>
     <div class="section-content">
@@ -11,31 +11,52 @@
             <div class="inputs-container">
                 <div class="form-inputs">
                     <label for="txtDocument">Documento</label>
-                    <input disabled type="text" value="Nuevo" class="" id="txtDocument">
+                    <input disabled type="text" value="Nuevo" class="" id="noDocument">
                 </div>
+                <div class="form-inputs"></div>
+                <div class="form-inputs"></div>
                 <div class="form-inputs">
-                    
-                    <label for="txtCurrentDate">Fecha Actual</label>
-                    <input disabled type="text" class="" id="txtCurrentDate">
-                </div>
-                <div class="form-inputs">
-                    <label for="selectCurrentStore">Almacen solicitante</label>
-                    <!-- <input disabled type="text" class="requerid" id="txtCurrentStore"> -->
-                    <select name="selectCurrentStore" disabled id="selectCurrentStore">
-                        <option value="1" selected>Principal</option>
+                    <label for="txtCurrentDate">Usuario contador</label>
+                    <select name="selectCurrentStore"  id="userCounter">
+                        <option value="0" selected>Seleccionar usuario</option>
+                        <option value="0" selected>Dariel Salas</option>
                     </select>
                 </div>
                 <div class="form-inputs">
-                    <label for="txtOtherStore">Almacen Remoto</label>
-                    <input type="text" value="Principal" id="txtOtherStore" disabled>
+                    <label for="selectCurrentStore">Departamento</label>
+                    <!-- <input disabled type="text" class="requerid" id="txtCurrentStore"> -->
+                    <select name="selectCurrentStore"  id="department">
+                        <option value="0" selected>Seleccionar departamento</option>
+                        <option value="1" selected>Oficina</option>
+                    </select>
+                </div>
+                <div class="form-inputs">
+                    <label for="txtOtherStore">Fecha</label>
+                    <input type="date" value="Principal" id="dateInput" disabled>
+                </div>
+                <div class="form-inputs">
+                    <label for="txtEstatus">Sucursal</label>
+                    <select name="selectCurrentStore"  id="branch">
+                        <option value="0" selected>Seleccionar sucursal</option>
+                        <option value="1" selected>Losmina</option>
+                    </select>
+                </div>
+                <div class="form-inputs">
+                    <label for="txtEstatus">Condición</label>
+                    <select name=""  id="condition">
+                        <option value="0" selected>Seleccionar condición</option>
+                        <option value="1" selected>Si me das money</option>
+                    </select>
                 </div>
                 <div class="form-inputs">
                     <label for="txtEstatus">Estatus</label>
-                    <input type="text" disabled id="txtEstatus">
+                    <select name="selectCurrentStore"  id="statusId">
+                        <option value="2" selected>Inactivo</option>
+                        <option value="1" selected>Activo</option>
+                    </select>
                 </div>
             </div>
-            <hr class="custom-hr mt-10">
-            <div class="content-row">
+            <!-- <div class="content-row">
                 <h4>Seleccionar articulo manual</h4>
                 <div class="inputs-container">
                     <div class="form-inputs">
@@ -64,51 +85,7 @@
                         <input type="text" class="txt-to-number" id="txtCantidadPanel">
                     </div>     
                 </div>
-            </div>
-            <div class="content-table">
-
-                <div class="table-content" id="tablePedidos">
-                    <!-- thead tr td -->
-                    <div class="table-head">
-                        <div class="tr-head" id="tr-head">
-                            <div class="td-head"></div>
-                            <div class="td-head">Codigo</div>
-                            <div class="td-head">Descripcion</div>
-                            <div class="td-head">C. Remota</div>
-                            <div class="td-head">C. Solicitada</div>
-                            <div class="td-head">Costo</div>
-                            <div class="td-head">Suplidor</div>
-                            <div class="td-head">Total</div>
-                        </div>
-                    </div>
-                    <!-- tbody tr td -->
-                    <div class="table-body" id="tbodyPedidos">
-                        <template id="template_tr_pedido">
-                            <div class="tr-body" id="tr-body">
-                                <div class="td-body"><button class="btn btn-custom-danger btn-delete-item"><i class="fas fa-minus-circle"></i></button></div>
-                                <div class="td-body"><span></span></div>
-                                <div class="td-body"><span></span></div>
-                                <div class="td-body"><span></span></div>
-                                <div class="td-body"><span></span></div>
-                                <div class="td-body"><span></span></div>
-                                <div class="td-body"><span></span></div>
-                                <div class="td-body">$<span>0.00</span></div>
-                            </div>
-                        </template>
-                        
-                    </div>
-                    <div class="table-head mt-10" id="tfootPedidos">
-                        <div class="tr-head" id="tr-head">
-                            <div class="td-head"></div>
-                            <div class="td-head"></div>
-                            <div class="td-head"></div>
-                            <div class="td-head"></div>
-                            <div class="td-head"></div>
-                            <div class="td-head">$<span id="span_totalPedido">0.00</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
 
         <!-- Seccion de los botones -->
@@ -116,22 +93,21 @@
             <div class="button-container">
                 
                 <div class="button-grouper tooltip"> 
-                    <span class="tooltip-box">Buscar los articulos (F3)</span>
-                    <button id="btnSearchArticule" class="btn-custom-primary">
-                       
-                        <i class="fas fa-sort-alpha-down fa-2x"></i>
-                    </button>
-                </div>
-                <div class="button-grouper tooltip">
-                    <span class="tooltip-box">Buscar ordenes anteriores</span>
-                    <button id="btnClearAll" class="btn-custom-primary">
-                        <i class="fa-solid fa-magnifying-glass fa-2x"></i> 
-                    </button>
-                </div>
-                <div class="button-grouper tooltip">
                     <span class="tooltip-box">Guardar</span>
-                    <button id="btnSave" class="btn-custom-success">
-                        <i class="fa-regular fa-floppy-disk fa-2x"></i> 
+                    <button id="btnGuardar" class="btn-custom-primary">
+                        <i class="fa-solid fa-floppy-disk"></i>
+                    </button>
+                </div>
+                <div class="button-grouper tooltip">
+                    <span class="tooltip-box">Regresar</span>
+                    <button id="btnRegresar" class="btn-custom-primary">
+                        <i class="fa-solid fa-arrow-left"></i> 
+                    </button>
+                </div>
+                <div class="button-grouper tooltip">
+                    <span class="tooltip-box">Actualizar</span>
+                    <button id="btnActualizar" class="btn-custom-success">
+                        <i class="fa-solid fa-arrow-rotate-left"></i>
                     </button>
                 </div>
                 <!-- <div class="button-grouper">
@@ -143,6 +119,6 @@
             </div>
         </section>
         <!-- Seccion de los botones -->
-        <script src="/app/js/formulario-pedidos.js"></script>
     </div>
+    <script src="/app/js/creacionDocumento.js"></script>
 </div>

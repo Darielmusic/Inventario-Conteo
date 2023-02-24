@@ -16,8 +16,6 @@
     let numeroPedidoBuscador = document.getElementById('numeroPedidoBuscador');
     let fechaPedidoBuscar = document.getElementById('fechaPedidoBuscar');
     let inputBuscador = document.getElementById('inputBuscador');
-    let nonExistentFecha = document.getElementById('nonExistentFecha');
-    let nonExistentNum = document.getElementById('nonExistentNum');
     let allData;
     let statusIdPut = 0;
     let item;
@@ -37,42 +35,42 @@
 
 
     inputBuscador.value = '';
-    //filter
-    filterTienda.addEventListener('change', function (e) {
+    // //filter
+    // filterTienda.addEventListener('change', function (e) {
 
-        tbodyPedidos.querySelectorAll('div[data-status]').forEach(tr => tr.classList.remove('display-none'))
-        let status = filterTienda.value;
-        switch (status) {
-            case 'todos':
-                statusFilter = 0;
-                creanTable = true;
-                allDataTablePedido(0, 0)
-                break;
-            case 'enviados':
-                statusFilter = 2;
-                creanTable = true;
-                allDataTablePedido(0, 2);
-                break;
-            case 'despachado':
-                statusFilter = 5;
-                creanTable = true;
-                allDataTablePedido(0, 5);
-                break;
-            case 'recibido':
-                statusFilter = 6;
-                creanTable = true;
-                allDataTablePedido(0, 6);
-                break;
-            case 'posteado':
-                statusFilter = 7;
-                creanTable = true;
-                allDataTablePedido(0, 7);
-                break;
+    //     tbodyPedidos.querySelectorAll('div[data-status]').forEach(tr => tr.classList.remove('display-none'))
+    //     let status = filterTienda.value;
+    //     switch (status) {
+    //         case 'todos':
+    //             statusFilter = 0;
+    //             creanTable = true;
+    //             allDataTablePedido(0, 0)
+    //             break;
+    //         case 'enviados':
+    //             statusFilter = 2;
+    //             creanTable = true;
+    //             allDataTablePedido(0, 2);
+    //             break;
+    //         case 'despachado':
+    //             statusFilter = 5;
+    //             creanTable = true;
+    //             allDataTablePedido(0, 5);
+    //             break;
+    //         case 'recibido':
+    //             statusFilter = 6;
+    //             creanTable = true;
+    //             allDataTablePedido(0, 6);
+    //             break;
+    //         case 'posteado':
+    //             statusFilter = 7;
+    //             creanTable = true;
+    //             allDataTablePedido(0, 7);
+    //             break;
 
-        }
+    //     }
 
 
-    })
+    // })
 
     let cont = 0
     window.onscroll = function () {
@@ -92,8 +90,6 @@
             tbodyPedidos.textContent = "";
             cont = 0
         }
-        nonExistentFecha.classList.add('display-none');
-        nonExistentNum.classList.add('display-none');
         if (statusInputBuscador) {
             if (searchStatus == 'numero') {
                 fetch(`/api/pedido/busqueda-Filtro/${numPage}?pedidoInternoId=${query}`)
@@ -101,7 +97,6 @@
                     .then(respuesta => {
                         allData = respuesta;
                         if (allData.length == 0 && numPage <= 0) {
-                            nonExistentNum.classList.remove('display-none');
                         }
                         fillTable()
                     })
@@ -112,7 +107,6 @@
                     .then(respuesta => {
                         allData = respuesta;
                         if (allData.length == 0 && numPage <= 0) {
-                            nonExistentFecha.classList.remove('display-none');
                         }
                         fillTable()
                     })
@@ -124,8 +118,6 @@
                 .then(respuesta => respuesta.json())
                 .then(respuesta => {
                     allData = respuesta;
-                    nonExistentFecha.classList.add('display-none');
-                    nonExistentNum.classList.add('display-none');
                     fillTable()
                 })
         }
@@ -168,7 +160,6 @@
                 <div class="td-cuerpo">${allData[key].usuario}</div>
                 <div class="td-cuerpo">${timeDate.toLocaleString('es-us', { timeZone: 'UTC' })}</div>
                 <div class="td-cuerpo">${allData[key].fuente}</div>
-                <div class="td-cuerpo">${allData[key].destino}</div>
                 <div class="td-cuerpo"  class"status"><p id="">
                 ${allData[key].estatus}
                 </p>
