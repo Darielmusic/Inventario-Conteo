@@ -85,6 +85,10 @@
     btnSearchUser.addEventListener('click', showModal);
 
     btnSaveUser.addEventListener('click',async e=>{
+        
+        let passMessage = validatePassword();
+        
+        if(passMessage) showAlerbanner('danger',passMessage);
 
         let userObj = {
             id: (idUsuario == 0) ? 0 : usuarios.id,
