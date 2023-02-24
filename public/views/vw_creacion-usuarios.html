@@ -12,54 +12,62 @@
                 <form autocomplete="off" class="inputs-container">
 
                     <div class="left">
-                        <div class="photo-container">
-                            <div class="img-user" id="imgContainer">
-                                <img src="./src/img/add_user.png" id="imgUser">
-                                <input accept="image/*" type="file" id="imgUserInput">
-                                <label for="">Seleccionar imagen</label>
-                            </div>
-                        </div>
-                        <div class="form-inputs mt-10">
+                   
+                        <div class="form-inputs">
                             <label for="txtNumero">Codigo de usuario</label>
                             <input autocomplete="off" disabled type="text" value="Nuevo" class="" id="txtNumero">
                         </div>
-                        <!-- <div class="form-inputs ">
+                   
+                        <div class="form-inputs">
+                            <label for="txtUser">Usuario</label>
+                            <input autocomplete="off" type="text" tabindex="5" class="requerid" id="txtUser">
+                        </div>
+                       
+                        <div class="form-inputs">
+                            <label for="slStatus">Estatus</label>
+                            <select autocomplete="off" class="requerid" tabindex="9" id="slStatus">
+                                <option value=""></option>
+                                <option value="1">Activo</option>
+                                <option value="0">Inactivo</option>
+                            </select>
+                        </div>
+                         <!-- <div class="form-inputs ">
                             <label for="slSucursales">Sucursales</label>
                             <select autocomplete="off" class="requerid" tabindex="7" id="slSucursales">
                                 <option value=""></option>
                             </select>
                         </div> -->
-                        <div class="form-inputs">
-                            <label for="slTipoUsuario">Tipo de Usuario</label>
-                            <select autocomplete="off" class="requerid" tabindex="8" id="slTipoUsuario">
-                                <option value=""></option>
-                            </select>
-                        </div>
-                        <div class="form-inputs">
-                            <label for="slStatus">Estatus</label>
-                            <select autocomplete="off" class="requerid" tabindex="9" id="slStatus">
-                                <option value=""></option>
-                            </select>
-                        </div>
+                        <!-- <div class="photo-container">
+                            <div class="img-user" id="imgContainer">
+                                <img src="./src/img/add_user.png" id="imgUser">
+                                <input accept="image/*" type="file" id="imgUserInput">
+                                <label for="">Seleccionar imagen</label>
+                            </div>
+                        </div> -->
                     </div>
+
                     <div class="center">
                         <div class="form-inputs">
                             <label for="txtName">Nombre</label>
                             <input autocomplete="off" type="text" tabindex="1" class="requerid" id="txtName">
-                        </div>
-                        <div class="form-inputs">
-                            <label for="txtCedula">Cedula</label>
-                            <input autocomplete="off" type="text" tabindex="3" class="requerid" id="txtCedula">
-                        </div>
-                        <div class="form-inputs">
-                            <label for="txtUser">Usuario</label>
-                            <input autocomplete="off" type="text" tabindex="5" class="requerid" id="txtUser">
                         </div>
                         <div class="form-inputs eye-content">
                             <label for="txtPassword">Contraseña</label>
                             <i class="fa-regular fa-eye-slash"></i>
                             <input autocomplete="off" type="password" tabindex="10" id="txtPassword">
                         </div>
+                        <!-- <div class="form-inputs">
+                            <label for="slTipoUsuario">Tipo de Usuario</label>
+                            <select autocomplete="off" class="requerid" tabindex="8" id="slTipoUsuario">
+                                <option value=""></option>
+                                
+                            </select>
+                        </div> -->
+                     
+                        <!-- <div class="form-inputs">
+                            <label for="txtCedula">Cedula</label>
+                            <input autocomplete="off" type="text" tabindex="3" class="requerid" id="txtCedula">
+                        </div> -->                      
                     </div>
 
                     <div class="right">
@@ -68,19 +76,20 @@
                             <label for="txtLastname">Apellido</label>
                             <input autocomplete="off" type="text" tabindex="2" id="txtLastname">
                         </div>
-                        <div class="form-inputs">
-                            <label for="txtaddress">Direccion</label>
-                            <input autocomplete="off" type="text" tabindex="4" id="txtaddress">
-                        </div>
-                        <div class="form-inputs">
-                            <label for="txtEmail">E-mail</label>
-                            <input autocomplete="off" type="text" tabindex="6" id="txtEmail">
-                        </div>
                         <div class="form-inputs eye-content">
                             <label for="txtConfirmPassword">Confirmar contraseña</label>
                             <i class="fa-regular fa-eye-slash"></i>
                             <input autocomplete="off" type="password" tabindex="11" id="txtConfirmPassword">
                         </div>
+                        <!-- <div class="form-inputs">
+                            <label for="txtaddress">Direccion</label>
+                            <input autocomplete="off" type="text" tabindex="4" id="txtaddress">
+                        </div> -->
+                        <!-- <div class="form-inputs">
+                            <label for="txtEmail">E-mail</label>
+                            <input autocomplete="off" type="text" tabindex="6" id="txtEmail">
+                        </div> -->
+                     
                     </div>
 
                 </form>
@@ -123,5 +132,6 @@
             <!-- Seccion de los botones -->
         </div>
     </div>
-    <script src="/app/js/creacionUsuarios.js"></script>
+    <!-- <script src="/app/js/creacionUsuarios.js"></script> -->
+    <script src="/app/js/creacion-usuario-conteo.js"></script>
 </section>
