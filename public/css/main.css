@@ -3601,3 +3601,12 @@ b {
   font-size: 14px;
 }
 
+/************************ Clases globales ***********************************/
+
+.widt-94{
+  width: 94% !important;
+}
+
+.height-90vh{
+  height: 90% !important;
+}

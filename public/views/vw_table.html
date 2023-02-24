@@ -5,16 +5,16 @@
             <div class="center-element">
                <button id="statusId" class="btn-status"></button> 
             </div>   
-            <div class="item" id="imprimirId">
+            <div class="item" id="verDocument">
                 <i class="fa-regular fa-folder-open"></i>Ver documento 
             </div>
             <!-- <div class="item display-none" id="modificarPedido">
                 <i class="fa-regular fa-pen-to-square"></i>Modificar
             </div> -->
-            <div class="item log-cambio" id="logCambioId">
+            <div class="item log-cambio" id="anularDocumento">
                 <i class="fa-solid fa-xmark"></i>Anular 
             </div>
-            <div class="item diferencia-pedidos" id="diferenciaPedidosFinales">
+            <div class="item diferencia-pedidos" id="postearDocumento">
                 <i class="fa-solid fa-lock"></i>Postear
             </div>
            <!--  <div class="item confi-pedido display-none" id="">
@@ -102,13 +102,13 @@
     </div>
 
 
-    <div class="modal-container" id="modalContainer">
-        <div class="modal-content ">
+    <div class="modal-container " id="modalContainer">
+        <div class="modal-content widt-94 height-90vh">
 
             <div class="head-modal">
                 <div class="info-modal-content">
-                    <h1><i class="fa-regular fa-folder-open"></i> &nbsp Log de cambio</h1>
-                    <span>Detalles de los Eventos del Pedido</span>
+                    <h1><i class="fa-regular fa-folder-open"></i> &nbsp Documento # <span>45</span></h1>
+                    <span></span>
                 </div>
                 <div class="close-modal">
                     <i id="closeModalAction" class="fa-regular fa-circle-xmark fa-3x"></i>
@@ -117,23 +117,24 @@
             
 
             <div class="log-cambio-cuerpo ">
-                <div class="table-content table-content-logcambio" id="tableLogCambio">
+                <div class="table-content table-content-logcambio " id="tableLogCambio">
                     <!-- thead tr td -->
                     <div class="table-cabezera">
                         <div class="tr-head tr-head-log" id="tr-head">
-                            <div class="td-head">Fecha</div>
-                            <div class="td-head">Detalle</div>
+                            <div class="td-head">Codigo</div>
+                            <div class="td-head">Referencia</div>
+                            <div class="td-head">Descripción</div>
+                            <div class="td-head">Cantidad</div>
+                            <div class="td-head">Existencia</div>
+                            <div class="td-head">Fecha de ingreso</div>
                             <div class="td-head">Usuario</div>
-                      
                         </div>
                     </div>
                     <!-- tbody tr td -->
                     <div class="table-cuerpo scroll" id="tbodyLogCambio">
                        
                     </div>
-                        
-                        
-                    
+
                 </div>
             </div>
            

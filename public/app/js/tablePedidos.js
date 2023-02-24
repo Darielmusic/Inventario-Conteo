@@ -12,7 +12,7 @@
     let tableLogCambio = document.getElementById('tableLogCambio');
     let tbodyLogCambio = document.getElementById('tbodyLogCambio')
     let filterTienda = document.getElementById('filterTienda');
-    let imprimirId = document.getElementById('imprimirId');
+    let verDocument = document.getElementById('verDocument');
     let numeroPedidoBuscador = document.getElementById('numeroPedidoBuscador');
     let fechaPedidoBuscar = document.getElementById('fechaPedidoBuscar');
     let inputBuscador = document.getElementById('inputBuscador');
@@ -368,19 +368,18 @@
             location.assign(`/api/pedido/impresion/comparativa/${allData[item].pedidoInternoId}`)
         }
 
-        //Aqui se Imprimen los Pedidoss
-        if (e.target.matches('#imprimirId')) {
-            
-            localStorage.setItem('idImprimir', allData[item].pedidoInternoId);
-            let open = window.open('/print.html') 
-            open.addEventListener('afterprint',()=>{
-                open.close();
-            })
+        //Ver documento
+        if (e.target.matches('#verDocument')) {
+            showModal();
+        }
 
-            window.loaderController.activate();
-            setTimeout(() => {
-                window.loaderController.disable();
-            }, 3000)
+        //Anular el documento
+        if (e.target.matches('#anularDocumento')) {
+            try {
+                
+            } catch (error) {
+                
+            }
         }
     })
 
